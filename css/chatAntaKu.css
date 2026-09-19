@@ -1,0 +1,382 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media only screen and (min-width : 0px) {
+	.chatAntaKu {
+		width: 100%;
+		display: none;
+		/*max-width: 1024px;*/
+	}
+	.chatAntaKu header #btnOculta {
+		display: inline-block;	
+	}
+}
+@media only screen and (min-width : 1024px){
+	.chatAntaKu {
+		width: 25%;
+		display: block !important;
+		/*max-width: 320px;*/
+	}
+	.chatAntaKu header #btnOculta {
+		display: none;	
+	}
+}
+
+@media only screen and (max-width : 1024px) and (orientation:landscape) and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (max-width : 1024px) and (orientation:landscape) and (-moz-min-device-pixel-ratio: 1.5),
+only screen and (max-width : 1024px) and (orientation:landscape) and (-o-min-device-pixel-ratio: 3/2),
+only screen and (max-width : 1024px) and (orientation:landscape) and (min-device-pixel-ratio : 1.5) {
+	.chatAntaKu {
+		width: 100%;
+		display: none;
+		/*max-width: 320px;*/
+	}
+	.chatAntaKu header #btnOculta {
+		display: inline-block;	
+	}
+}
+
+@media only screen and (min-width : 1680px) {
+	.chatAntaKu {
+		display: block !important;
+		width: 25%;
+		/*max-width: 450px;*/
+	}
+	.chatAntaKu header #btnOculta {
+		display: none;	
+	}
+}
+
+/** {
+	margin: 0;
+	padding: 0;
+}*/
+.chatAntaKu {
+	/*box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing: border-box;*/
+	/*width: 100%;*/
+	text-align: left;
+	position: fixed;
+	height: 100%;
+	right: 0;
+	bottom: 0;
+	font: bold italic small-caps 16px/1.4 Verdana, Geneva, sans-serif;
+	z-index: 99999;
+	box-shadow: -4px 0 5px rgba(0,0,0,0.5);
+}
+
+.chatAntaKu header {
+	cursor: default;
+	position: relative;
+}
+
+.chatAntaKu h3 {
+	position: relative;
+	text-align: center;
+	font: bold italic small-caps 1.2em/1.4 Georgia, "Times New Roman", Times, serif;
+	padding: 0.4em;
+}
+
+.chatAntaKu form {
+	margin: 20px 0;
+}
+
+.chatAntaKu div {
+	margin-bottom: 20px;
+}
+
+.chatAntaKu .zonaConeccion {
+	width: 70%;
+	position: relative;
+	height: 40px;
+	padding: 14px 20px;
+	background: rgba(0,0,0,0.4);
+}
+
+.chatAntaKu #txtChatUsername {
+	outline: none;
+	padding: 0 1em;
+	border-radius: 10px;
+	height: 40px;
+	font-size: inherit;
+	width: 77%;
+	box-shadow: 2px 2px 1px rgba(0,0,0,0.4) inset;
+	border: 0;
+}
+
+.chatAntaKu #btnChatConectar {
+	width: 66px;
+	height: 66px;
+	text-indent: -9999px;
+	background: url('../img/chatConnect.png') -2px -2px, url("images/ui-bg_glass_30_75031e_1x400.png") 50% 50%; 
+	border-radius: 50%;
+	position: absolute;
+	right: -33px;
+	top: 0;
+	border: 2px solid #eac436;
+	outline: none;
+}
+
+.chatAntaKu #btnChatConectar:hover {
+	cursor: pointer;
+	background: url('../img/chatConnect.png') -68px -2px, url("images/ui-bg_glass_30_75031e_1x400.png") 50% 50%;
+}
+
+.chatAntaKu #btnChatConectar:active, .chatAntaKu #btnChatConectar.chatConnectedState {
+	background: rgba(0,0,0,0.4) url('../img/icons-sprite-x64.png') -129px -260px;
+}
+
+.chatAntaKu header .chatRegConectados {
+	position: absolute;
+	z-index: 80;
+	width: 40%;
+	top: 100%;
+	right: 0;
+	
+	overflow: hidden;
+	padding: 0px 20px 0px 20px;
+	background: #222;
+	color: #ddd;
+	height: 0;
+	transition: all 0.5s ease-in;
+	-moz-transition: all 0.5s ease-in;
+	-ms-transition: all 0.5s ease-in;
+	-o-transition: all 0.5s ease-in;
+	-webkit-transition: all 0.5s ease-in;
+	/*display: none;*/
+}
+
+.chatAntaKu header .chatRegConectados ul {
+	list-style: none;
+	background: rgba(0,0,0,0.4);
+	height: 150px;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.chatAntaKu header #btnConectados {
+	position: absolute;
+	z-index: 300;
+	top: 30%;
+	right: 5%
+}
+
+.chatAntaKu header #btnOculta {
+	position: absolute;
+	z-index: 301;
+	top: 30%;
+	left: 5%
+}
+
+.chatAntaKu header .listaConectados { /*Nuevo*/
+	height: 178px;
+	padding: 10px 20px 14px 20px;
+}
+
+.chatAntaKu header .chatRegConectados ul li {
+	text-align: right;
+	font-size: 0.75em;
+	padding: 2px 15px;
+	border-bottom:	1px solid #000;
+	box-shadow: 0 1px 0px rgba(255,255,255,0.3);
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+.chatAntaKu header .chatRegConectados ul li.notConnected {
+	text-align: center;
+}
+
+.chatAntaKu .chatPantalla {
+	background: rgba(0,0,0,0.4);
+	padding: 0;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	margin-bottom: 106px; 
+	margin-top:  150px;
+	width: 100%;
+}
+
+.chatAntaKu .chatPantalla ul {
+	position: absolute;
+	z-index: 30;
+	top: 14px;
+	right: 0;
+	bottom: 0;
+	padding: 10px 10%;
+	width: 80%;
+	list-style: none;
+	background: #333 url('../img/fondo.jpg') center center;
+	background-size: 100% auto;
+	min-height: 89px; /* Modificar esto para el tamaño minimo que puede tener el chat*/
+	height: auto;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.chatAntaKu .chatPantalla .logger {
+	text-align: left;
+	position: absolute;
+	top:20px;
+	left:0;
+	z-index: 40;
+	width: 90%;
+	margin: 0 5%;
+	font-size: 0.875em;
+	background-size: 100% 100%;
+	opacity:0.9;
+}
+
+.chatAntaKu .chatPantalla .logger span {
+	position: absolute;
+	left: -10px;
+	top: 7px;
+}
+
+.chatAntaKu .chatPantalla .logger p {
+	position: relative;
+	margin-left: 20px;
+	padding: 5px 10px;
+	
+}
+
+.chatAntaKu #chatInput {
+	padding: 14px 0;
+	background: rgba(0,0,0,0.4);
+	position: absolute;
+	z-index: 50;
+	margin-bottom: 38px;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	height: 40px;
+}
+
+.chatAntaKu #chatInput textarea {
+	position: absolute;
+	top: 14px;
+	left: 16px;
+	outline: none;
+	padding: 0.5em 1em 0;
+	border-radius: 10px;
+	height: 32px;
+	font-size: 0.75em;
+	font-family: Verdana, Geneva, sans-serif;
+	width: 47%;
+	max-width: 60%;
+	resize:none;
+	max-height: 32px;
+	min-height: 32px;
+	box-shadow: 2px 2px 1px rgba(0,0,0,0.4) inset;
+	border: 0;
+	border-bottom: 1px solid rgba(0,0,0,0.4);
+	border-right: 1px solid rgba(0,0,0,0.4);
+	background: white;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.chatAntaKu #chatInput input[type="submit"] {
+	width: 32%;
+	display: table-cell;
+	position: absolute;
+	outline: none;
+	height: 40px;
+	top: 14px;
+	right: 16px;
+	z-index: 70;
+}
+.chatAntaKu #chatInput input[disabled] {
+	opacity: 0.9;
+}
+
+.chatAntaKu > footer {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	text-align: center;
+	padding: 14px 0;
+}
+
+.chatAntaKu > footer span {
+	font-size: 0.625em;
+}
+
+/* Bocadillos */
+.chatAntaKu .chatPantalla ul li {
+	clear: both;
+}
+
+.chatAntaKu .chatPantalla ul li .bocadillo {
+	font: normal normal normal 1em/1.3 Verdana, Geneva, sans-serif;	
+	display			: inline-block;
+	position		: relative;
+	padding			: 0.5em;
+	border-radius	: 10px 0px 10px 0px;
+}
+
+.chatAntaKu .chatPantalla .visitante {
+	background-color	: #d9d6b8;
+	background			: linear-gradient(0deg, #d9d6b8, #bdbc9d);
+	float: left;
+	clear: both;
+}
+
+.chatAntaKu .chatPantalla .instituto {
+	background-color	: #dfd498;
+	background			: linear-gradient(0deg, #e2bc62, #dfd498);
+	float: right;
+	clear: both;
+}
+
+.chatAntaKu .chatPantalla .visitante span {
+	position		: absolute;
+	height			: 1%;
+	border-bottom	: 8px solid #d9d6b8;
+	border-left	 	: 12px solid transparent;
+	right			: 100%;
+	bottom 			: 0px;
+}
+
+.chatAntaKu .chatPantalla .instituto span {
+	position		: absolute;
+	height			: 1%;
+	border-top  	: 8px solid #dfd498;
+	border-right 	: 12px solid transparent;
+	left			: 100%;
+	top				: 0px;
+}
+
+.chatAntaKu .chatPantalla ul li .autor {
+	padding-right: 2em;
+	margin-left	: 6px;
+	display		: list-item;
+	list-style	: circle inside;
+	color    	: #75031E;
+	font		: bold italic 1em Georgia, "Times New Roman", Times, serif;
+}
+
+.chatAntaKu .chatPantalla ul li .autor::first-letter {
+	text-transform: uppercase;
+}
+
+.chatAntaKu .chatPantalla ul li p {
+	color		: #333;
+	text-align	: justify;
+	margin		: 8px 5px;
+	white-space	: pre-wrap;
+	word-wrap	: break-word;
+}
+
+.chatAntaKu .chatPantalla ul li footer {
+	margin-top: 8px;
+	text-align	: right;
+}
+
+.chatAntaKu .chatPantalla ul li time {
+	color   : #75031E;
+	font	: bold italic 0.875em Georgia, "Times New Roman", Times, serif;
+}

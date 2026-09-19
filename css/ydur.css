@@ -1,0 +1,2150 @@
+}
+.terms-hero{
+    display: inline-block;
+    font-size: 14px;
+    text-align: center;
+    color: #000;
+    margin-top: 15px;
+    margin-left: 20%;
+}
+.mobile-hero-arrow{ position: absolute; top: 70%; right: 15%; width: 50px;}
+
+
+a:hover {
+    color: #0084ff;
+    text-decoration: none
+}
+
+
+
+.hash-hero {
+    font-family: muli;
+    margin-top: 10px;
+    color: #0084ff!important;
+    text-align: center;
+    font-size: 28px;
+}
+span.text-learning-blue {
+    color: #0084ff;
+    font-size: 36px;
+    font-weight: 800;
+}
+span.text-learning-underline{
+    border-bottom:5px solid #ff6600;
+}
+
+span.text-hero-light{
+    color:#0084ff;
+}
+
+
+span#text-underline-color {
+    font-family: Muli;
+    border-bottom: 5px solid #0084ff;
+}
+
+#number {
+    font-family: Muli;
+    font-size: 89px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: .96;
+    letter-spacing: normal;
+    text-align: left;
+    color: rgba(0, 105, 223, .5)
+}
+
+
+.btn-primary {
+    box-shadow: .9px 9px 21px 0 rgba(0, 0, 0, .12);
+    position: relative;
+    z-index: 10;
+    border-radius: 30px;
+    font-size: 21px;
+    margin: 40px auto;
+    background: linear-gradient(to left, #ff7b00, #f60)
+}
+
+
+.icon-section {
+    float: left!important;
+    font-size: 64px;
+    width: 15%;
+    color: #0084ff;
+    margin-top: -12px
+}
+
+.top-icon {
+    margin-bottom: 16px;
+    position: relative
+}
+
+div#curve {
+    position: relative;
+    height: 200px
+}
+
+div#curveHero {
+    position: relative;
+    height: 0
+}
+
+div#curve-comofunciona {
+    position: relative;
+    height: 128px
+}
+
+svg {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: auto
+}
+
+
+.call-to-action {
+    background: url(/wp-content/uploads/2019/05/oe-latam-2019-calltoactio-redesign.jpg) no-repeat center center #fff;
+    padding: 110px 0;
+    font-family: Muli;
+    font-size: 30px;
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    text-align: center;
+    color: #010101;
+    min-height: 423px
+}
+
+section.efectivo .texto p {
+    font-family: Muli;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.75;
+    letter-spacing: normal;
+    text-align: left;
+    color: #404040
+}
+
+section.quieroaprender h2.section-heading {
+    font-family: Muli;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 1.42;
+    text-align: left;
+    color: #fff;
+    width: 375px;
+    margin: 8px 0 47px 0
+}
+
+section.comofunciona h2.section-heading {
+    font-family: Muli;
+    font-size: 38px;
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.42;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+    padding-bottom: 11px;
+    margin: 0
+}
+
+section.comofunciona h3.section-heading {
+    font-family: Muli;
+    font-size: 24px;
+    padding-top: 39px;
+    padding-bottom: 19px;
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+    margin: 0
+}
+
+section.comofunciona p {
+    font-family: Muli;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.75;
+    letter-spacing: normal;
+    text-align: left;
+    color: #404040;
+    margin: 0
+}
+
+section.efectivo {
+    padding-top: 35px
+}
+
+section.efectivo h2.section-heading {
+    font-family: Muli;
+    font-size: 2.375rem;
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.42;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000
+}
+
+section.efectivo h4.section-heading {
+    font-family: Muli;
+    font-size: 1.3rem;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.27;
+    letter-spacing: normal;
+    text-align: left;
+    color: #404040;
+    padding: 20px 0 10px
+}
+
+section.efectivo .texto h3 {
+    font-family: Muli;
+    font-size: 24px;
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000
+}
+
+section.efectivo .information-set:first-child {
+    margin-top: 20px
+}
+
+section.efectivo .information-set {
+    margin-top: 20px
+}
+
+section.efectivo .information-set .media-left {
+    padding-right: 30px;
+    min-width: 100px;
+    padding-top: 4px
+}
+
+.conocer-mas {
+    font-size: 1.375rem
+}
+
+section.efectivo .computer {
+    margin-top: -150px;
+    margin-left: 100px;
+    max-width: 849px;
+    height: 740px
+}
+
+section.efectivo .andres-effectivo {
+    margin-top: 0
+}
+
+.imgaprender {
+    margin-top: -88px;
+    margin-left: -504px;
+    max-width: 1060px;
+    height: 704px
+}
+
+.section.quieroaprender {
+    padding: 40px 0 0;
+    background-color: #007ff6;
+    color: #fff
+}
+
+.section.quieroaprender .stats {
+    line-height: 1.75
+}
+
+.section.quieroaprender .stats::after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    border-left: 1px solid #ff8c40;
+    transform: translate(-50%);
+    min-height: 155px
+}
+
+.section.quieroaprender .stats:last-child::after {
+    display: none
+}
+
+.section.quieroaprender .stats img {
+    margin-bottom: 20px
+}
+
+.section.quieroaprender .btn-primary.blue {
+    margin-top: 35px
+}
+
+.btn-primary.blue {
+    background: #0084ff;
+    color: #fff
+}
+
+.stripe-btn {
+    margin-top: 35px
+}
+
+.background-cta {
+    border-radius: 5px;
+    box-shadow: 15.7px 23.2px 58px 0 rgba(0, 0, 0, .18);
+    background-color: #fff;
+    margin-top: -108px;
+    z-index: 120;
+    height: 157px;
+    padding: 41px 55px 43px 56px;
+    position: relative
+}
+
+.text-cta {
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 1.46
+}
+
+.margin-arrow {
+    margin: 25px auto
+}
+
+.right-block {
+    float: right;
+    margin: 12px 0 0 0
+}
+
+.cta .section-heading {
+    font-size: 38px;
+    line-height: 38px;
+    margin: 0
+}
+
+.padding-cta {
+    padding-top: 100px
+}
+
+.cta .btn-primary {
+    margin: 10px auto 0
+}
+
+section.comofunciona .woman {
+    margin-top: 100px
+}
+
+section.comofunciona .btn-primary {
+    position: relative;
+    z-index: 10
+}
+
+section.comofunciona {
+    padding: 110px 0 120px;
+    background-color: #f0f8ff;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+span#text-selected {
+    color: #f60;
+    font-weight: 700
+}
+
+.padding-text {
+    padding-top: 25px
+}
+
+section.b2b-alumnos {
+    margin-top: -120px;
+    z-index: 110;
+    position: relative;
+    height: 940px;
+    background: linear-gradient(#fff 0, #fff 40%, #0084ff 40%)
+}
+
+section.b2b-alumnos h2.section-heading {
+    padding: 0 150px 90px;
+    font-family: Muli;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 1.42;
+    text-align: center;
+    color: #000;
+    margin: 0
+}
+
+section.cta {
+    background: #edf6ff
+}
+
+.wrapper-ofrecemos-alumnos {
+    box-shadow: 12.7px 23.8px 32px 0 rgba(0, 0, 0, .13);
+    border: 1px solid #d6e4f1;
+    border-radius: 6px;
+    margin-bottom: -60px;
+    background: #fff;
+    border: none
+}
+
+.wrapper-ofrecemos-alumnos .title-box {
+    color: #fff;
+    border-radius: 6px 6px 0 0
+}
+
+.wrapper-ofrecemos-alumnos .title-box .media-left {
+    vertical-align: middle
+}
+
+.wrapper-ofrecemos-alumnos .title-box .media-body {
+    vertical-align: middle;
+    height: 73px;
+    padding: 0 20px;
+    font-size: 1.5rem;
+    font-family: Nunito, sans-serif;
+    border-radius: 10px 10px 0 0
+}
+
+.wrapper-ofrecemos-alumnos .content-box {
+    padding: 24px 25px 0 25px;
+    position: relative;
+    min-height: 240px
+}
+
+.wrapper-ofrecemos-alumnos ul {
+    list-style: none;
+    padding: 0;
+    margin: 0
+}
+
+.wrapper-ofrecemos-alumnos li {
+    padding-left: 1rem;
+    text-indent: -.7rem;
+    font-size: 1.125rem
+}
+
+.wrapper-ofrecemos-alumnos li::before {
+    content: "• ";
+    color: #0084ff
+}
+
+.wrapper-ofrecemos-alumnos .objetivo {
+    color: #ff5f00;
+    font-size: 1.125rem;
+    position: absolute;
+    bottom: 10px
+}
+
+.wrapper-ofrecemos-alumnos p {
+    font-family: Muli;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 1.4;
+    text-align: center;
+    color: #0084ff;
+    margin: 0
+}
+
+.wrapper-ofrecemos-alumnos p.data-alumnos {
+    font-family: Muli;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.75;
+    text-align: center;
+    color: #010101;
+    margin: 0
+}
+
+.wrapper-ofrecemos-alumnos p.text-alumnos {
+    font-family: Muli;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.75;
+    text-align: center;
+    color: #404040
+}
+
+.text-aprender {
+    font-size: 18px!important;
+    line-height: 1.56!important;
+    height: 70px;
+    margin-bottom: 31px!important;
+    color: #fff!important
+}
+
+section.call-to-action h2.section-heading {
+    font-family: Muli, sans-serif
+}
+
+.link-alumnos {
+    font-family: Muli;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.52;
+    text-align: left;
+    color: #fff
+}
+
+.link-alumnos:hover {
+    font-family: Muli;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.52;
+    text-align: left;
+    color: #fff;
+    text-decoration: underline
+}
+
+.wrapper-ofrecemos-alumnos .quote-alumnos {
+    font-size: 110px;
+    opacity: .1;
+    color: #0084ff;
+    float: right;
+    margin: -120px -8px 0 0
+}
+
+.wrapper-ofrecemos-alumnos .stars {
+    padding: 6px 0 35px
+}
+
+.wrapper-ofrecemos-alumnos .star-on {
+    color: #ff5f00;
+    font-size: 1.125rem
+}
+
+.wrapper-ofrecemos-alumnos .star-off {
+    color: #dadada;
+    font-size: 1.125rem
+}
+
+span#text-underline {
+    font-family: Muli;
+    padding: 10px 0
+}
+
+span#text-underline-hero {
+    font-family: Muli;
+    padding: 10px 0;
+    color: #0084ff!important
+}
+
+span#text-underline-hero:after {
+    content: "";
+    float: left;
+    background: #f60;
+    width: 212px;
+    height: 6px;
+    border-radius: 13px;
+    margin: -6px 0 0 16px
+}
+
+span#text-underline:after {
+    content: "";
+    float: left;
+    background: #f60;
+    width: 219px;
+    height: 6px;
+    border-radius: 13px;
+    margin: -6px 0 0 186px
+}
+
+span#text-underline-aprender {
+    font-family: Muli;
+    padding: 10px 0
+}
+
+span#text-underline-aprender:after {
+    content: "";
+    float: left;
+    background: #f60;
+    width: 274px;
+    height: 6px;
+    border-radius: 13px;
+    margin: -6px 0 0 40px
+}
+
+span#text-underline-comofunciona {
+    font-family: Muli;
+    padding: 10px 0
+}
+
+span#text-underline-comofunciona:after {
+    content: "";
+    float: left;
+    background: #f60;
+    width: 161px;
+    height: 6px;
+    border-radius: 13px;
+    margin: -6px 0 0 129px
+}
+
+span#text-underline-students {
+    font-family: Muli;
+    padding: 10px 0
+}
+
+span#text-underline-students:after {
+    content: "";
+    float: left;
+    background: #f60;
+    width: 161px;
+    height: 6px;
+    border-radius: 13px;
+    margin: -6px 0 0 129px
+}
+
+span#text-underline-b2b-alumnos:after {
+    content: "";
+    float: left;
+    background: #f60;
+    width: 296px;
+    height: 6px;
+    border-radius: 13px;
+    margin: -6px 0 0 510px
+}
+
+.hidden-device {
+    display: block
+}
+
+.show-device {
+    display: none
+}
+
+span#text-underline-orange {
+    border-bottom: 5px solid #ff6600;
+}
+
+span#text-underline-light-blue {
+    border-bottom: 5px solid #25cad3;
+}
+
+@media screen and (min-width:1900px) {
+    section.efectivo {
+        padding-bottom: 3%
+    }
+    .section.quieroaprender {
+        padding: 0;
+        margin-top: -50px
+    }
+    section.comofunciona {
+        padding: 110px 0 10%
+    }
+    section.b2b-alumnos {
+        margin-top: -10%
+    }
+}
+
+@media (min-width:1500px) and (max-width:1800px) {
+    span#text-underline:after {
+        width: 220px;
+        margin: -6px 0 0 186px
+    }
+}
+
+@media (min-width:1201px) and (max-width:1499px) {
+    div#curve-comofunciona {
+        position: relative;
+        height: 90px
+    }
+
+}
+
+@media (min-width:1025px) and (max-width:1200px) {
+    section.comofunciona .woman {
+        margin-top: 200px;
+    }
+    section.comofunciona {
+        padding: 110px 0 100px;
+    }
+    .imgaprender {
+        margin-left: -620px;
+    }
+    .text-aprender {
+        font-size: 17px!important;
+    }
+}
+
+@media(max-width:1024px) {
+    .imgaprender {
+        margin-left: -620px
+    }
+    section.b2b-alumnos h2.section-heading {
+        padding: 40px 178px 90px
+    }
+    span#text-underline-b2b-alumnos:after {
+        width: 86px;
+        margin: -6px 0 0 235px
+    }
+    .text-aprender {
+        height: 78px
+    }
+    section.b2b-alumnos {
+        height: 990px
+    }
+    section.comofunciona .woman {
+        margin-top: 260px
+    }
+    section.comofunciona {
+        padding: 110px 0 90px
+    }
+    .cta .section-heading {
+        font-size: 34px;
+        line-height: 34px
+    }
+    .text-cta {
+        font-size: 24px
+    }
+    .wrapper-ofrecemos-alumnos p.data-alumnos {
+        font-size: 14px
+    }
+    span#text-underline:after {
+        display: none
+    }
+}
+
+@media (min-width:992px) and (max-width: 1023px) {
+    .hidden-device {
+        display: block !important;
+    }
+}
+@media (min-width:751px) and (max-width:991px) {
+
+
+    span.text-learning-blue {
+        color: #0084ff;
+        font-size: 1.7em;
+        font-weight: 800;
+    }
+    span.text-learning-underline {
+        border-bottom: 5px solid #ff6600;
+    }
+
+}
+
+
+
+
+@media (min-width:420px) and (max-width:479px) {
+
+    span#text-underline-color {
+        font-family: Muli;
+        border-bottom: 2px solid #0084ff;
+    }
+}
+
+@media (min-width:361px) and (max-width:419px) {
+
+    span.text-learning-blue {
+        color: #0084ff;
+        font-size: 20px;
+        font-weight: 800;
+    }
+    span.text-learning-underline {
+        border-bottom: 2px solid #ff6600;
+    }
+}
+
+@media (min-width:200px) and (max-width:360px) {
+
+    span.text-learning-blue {
+        color: #0084ff;
+        font-size: 28px;
+        font-weight: 800;
+    }
+
+    span.text-learning-underline {
+        border-bottom: 3px solid #ff6600;
+    }
+
+    span#text-underline-color {
+        font-family: Muli;
+        border-bottom: 2px solid #0084ff;
+    }
+}
+
+@media(max-width:991px) {
+    .terms-hero  {
+        margin: auto!important;
+        font-size: 12px;
+    }
+    body {
+        overflow-x: hidden !important;
+    }
+
+
+    .background-cta {
+        border-radius: 5px;
+        box-shadow: 15.7px 23.2px 58px 0 rgba(0, 0, 0, .18);
+        background-color: #fff;
+        margin-top: -100px;
+        z-index: 120;
+        height: 200px
+    }
+
+
+    section.efectivo {
+        text-align: center;
+
+    }
+    section.efectivo .information-set {
+        margin-top: 0!important;
+        padding: 40px 0 0 0
+    }
+    .information-set .media {
+        padding: 0 10px
+    }
+    section.efectivo h2.section-heading {
+        font-size: 28px;
+        margin: 0;
+        text-align: center
+    }
+    section.efectivo .information-set .media-left {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 20px;
+        padding-right: 0
+    }
+    section.efectivo .andres-effectivo {
+        margin-top: 0;
+        max-height: 450px
+    }
+    section.efectivo .computer {
+        padding-top: 25px;
+        width: 100%;
+        height: 100%;
+        margin: 0
+    }
+    section.b2b-alumnos h2.section-heading {
+        font-size: 2em;
+        padding: 0
+    }
+    section.b2b-alumnos {
+        margin-top: -250px;
+        z-index: 110;
+        position: relative;
+        height: 267vh;
+        background: linear-gradient(#fff 0, #fff 40%, #0084ff 40%)
+    }
+    .section.quieroaprender .stats:last-child {
+        margin-bottom: 0;
+        border-bottom: none
+    }
+    .section.quieroaprender .stats img {
+        margin-bottom: 20px
+    }
+    .section.como-funciona {
+        text-align: center;
+        background-image: none!important;
+        padding: 40px 0 0
+    }
+    .students {
+        margin: 0 auto;
+        padding-top: 15px
+    }
+    .section.como-funciona img {
+        margin-top: 30px
+    }
+    section.efectivo h4.section-heading {
+        font-size: 22px;
+        line-height: 32px;
+        text-align: center;
+        padding: 0;
+        margin: 0
+    }
+    section.efectivo .texto h3 {
+        font-size: 24px;
+        text-align: center
+    }
+    section.efectivo .texto p {
+        font-size: 18px;
+        line-height: 30px;
+        text-align: center;
+        margin: 0
+    }
+    .icon-section {
+        float: left!important;
+        font-size: 48px;
+        width: 18%;
+        color: #0084ff;
+        margin-top: -10px
+    }
+    section.quieroaprender h2.section-heading {
+        font-size: 28px;
+        text-align: center;
+        margin: 0;
+        padding: 50px 10px;
+        width: 100%
+    }
+    .wrapper-ofrecemos-alumnos .content-box {
+        min-height: 220px
+    }
+    .table-elige,
+    .wrapper-ofrecemos-alumnos {
+        margin-bottom: 40px
+    }
+    .wrapper-ofrecemos {
+        margin-top: 20px
+    }
+    span#text-underline-aprender:after {
+        margin: -6px 0 0 122px;
+        width: 188px;
+        display: none
+    }
+    span#text-underline-comofunciona:after {
+        display: none
+    }
+    #number {
+        font-size: 64px
+    }
+    .left-icon {
+        float: left!important;
+        font-size: 36px;
+        margin-top: 26px;
+        z-index: 100;
+        position: relative;
+        width: 16%
+    }
+    .text-aprender {
+        height: 70px;
+        margin-bottom: 31px!important;
+        width: 90%
+    }
+    .text-aprender p {
+        font-size: 19px;
+        line-height: 30px;
+        color: #fff;
+        font-family: Muli, sans-serif
+    }
+    .section.quieroaprender {
+        height: 100%;
+        padding: 0;
+        z-index: 3
+    }
+    section.call-to-action h2 {
+        font-size: 24px;
+        line-height: 32px;
+        margin: 30px 0 0 0
+    }
+    section.call-to-action h2.section-heading {
+        font-family: Muli, sans-serif
+    }
+    .call-to-action {
+        min-height: 330px;
+        background: #f0f8ff;
+        padding: 10px;
+        z-index: 2
+    }
+    .background-call-to-action {
+        background: #fff;
+        margin: 30px;
+        border-radius: 6px;
+        box-shadow: 6px 8px 40px 0 rgba(0, 0, 0, .18)
+    }
+    section.comofunciona h2.section-heading {
+        padding-bottom: 15px;
+        font-size: 2rem;
+        text-align: center
+    }
+    section.comofunciona h3.section-heading {
+        font-size: 1.3em;
+        text-align: center
+    }
+    section.comofunciona p {
+        text-align: center
+    }
+    div#curvecomofunciona {
+        height: 24px
+    }
+    section.b2b-alumnos h2.section-heading {
+        margin: 40px 0 20px 0
+    }
+    .display-mobile {
+        display: none
+    }
+    .show-device {
+        display: block
+    }
+    .hidden-device {
+        display: none
+    }
+    .btn-primary {
+        font-size: 18px;
+        font-weight: 500
+    }
+    div#curve {
+        position: relative;
+        height: 60px
+    }
+    .imgaprender {
+        margin-top: 0;
+        margin-left: -30%;
+        max-width: initial;
+        height: 560px
+    }
+    .arrow-vertical {
+        z-index: 3;
+        position: absolute;
+        margin-left: 80%;
+        margin-top: -12%
+    }
+    .wrapper-ofrecemos-alumnos .title-box {
+        color: #fff;
+        border-radius: 6px 6px 0 0;
+        padding: 0;
+        height: auto
+    }
+
+    .right-block {
+        float: none;
+    }
+    section.comofunciona .btn-primary {
+        display: block;
+        width: fit-content;
+    }
+    span#text-underline-orange {
+        font-family: Muli;
+        border-bottom: 3px solid #ff6600;
+    }
+}
+
+
+
+@media (min-width:991px) and (max-width:1200px) {
+    img.andres-effectivo {
+        margin-top: 50px!important
+    }
+    .testimonials-home .caption {
+        height: 450px
+    }
+    section.partners img:first-child {
+        margin-left: 0
+    }
+    section.partners img {
+        margin-right: 30px;
+        display: inline-block
+    }
+    div#curve-comofunciona {
+        position: relative;
+        height: 66px
+    }
+
+
+    .padding-cta {
+        padding-top: 60px;
+    }
+    .wrapper-ofrecemos-alumnos p.data-alumnos {
+        font-size: 14px;
+    }
+}
+
+@media(max-width:768px) {
+
+    .hp-icons {
+        margin-bottom: 20px
+    }
+    .section.quieroaprender .stats {
+        margin-bottom: 55px;
+        border-bottom: 1px #ff8c40 solid;
+        padding-bottom: 20px
+    }
+    .section.quieroaprender .stats::after {
+        display: none
+    }
+
+    section.efectivo .computer {
+        padding-top: 54px
+    }
+    section.comofunciona h3.section-heading {
+        text-align: center
+    }
+    section.comofunciona p {
+        text-align: center
+    }
+    span#text-underline-b2b-alumnos:after {
+        display: none
+    }
+    section.comofunciona .woman {
+        margin-top: 30px
+    }
+    section.b2b-alumnos {
+        margin-top: -170px;
+        height: 80em;
+        background: linear-gradient(#fff 0, #fff 40%, #0084ff 40%)
+    }
+    section.b2b-alumnos h2.section-heading {
+        padding: 60px 0
+    }
+    .padding-cta {
+        padding-top: 50px
+    }
+    .background-cta {
+        margin-top: -144px;
+        width: 95%;
+        height: 220px
+    }
+    .carousel-indicators {
+        bottom: -20px
+    }
+    .right-block {
+        float: none
+    }
+    .carousel-indicators .active {
+        background-color: #25cad3;
+        border: none
+    }
+    .carousel-indicators li {
+        background-color: #fff
+    }
+
+}
+
+@media (min-width:751px) and (max-width:991px) {
+
+    span#text-underline:after {
+        content: "";
+        float: left;
+        background: 0 0;
+        width: 162px;
+        height: 4px;
+        border-radius: 13px;
+        margin: -6px 0 0 344px
+    }
+    section.efectivo {
+        text-align: center;
+        padding-top: 130px
+    }
+    .imgaprender {
+        margin-top: 0;
+        margin-left: -8%;
+        width: 100%;
+        height: auto
+    }
+    .arrow-vertical {
+        z-index: 3;
+        position: absolute;
+        margin-left: 82%;
+        margin-top: -4%
+    }
+    span#text-underline-comofunciona:after {
+        width: 68px;
+        margin: -6px 0 0 270px;
+        background: 0 0
+    }
+    section.comofunciona {
+        padding: 85px 0 120px
+    }
+    section.comofunciona h2.section-heading {
+        text-align: center
+    }
+    section.efectivo h4.section-heading {
+        font-size: 22px;
+        line-height: 32px;
+        text-align: center;
+        margin: 0 180px;
+        padding: 0
+    }
+    section.efectivo .computer {
+        padding-top: 54px
+    }
+    section.comofunciona h3.section-heading {
+        text-align: center
+    }
+    section.comofunciona p {
+        text-align: center
+    }
+    span#text-underline-b2b-alumnos:after {
+        width: 68px;
+        margin: -6px 0 0 270px;
+        background: 0 0
+    }
+    section.comofunciona .woman {
+        margin-top: 30px
+    }
+    section.b2b-alumnos {
+        margin-top: -170px;
+        height: 158em;
+        background: linear-gradient(#fff 0, #fff 25%, #0084ff 25%)
+    }
+    section.b2b-alumnos h2.section-heading {
+        padding: 60px 138px
+    }
+    section.b2b-alumnos {
+        background: linear-gradient(#fff 0, #fff 50%, #0084ff 50%);
+        height: 80em
+    }
+    .padding-cta {
+        padding-top: 50px
+    }
+    .call-to-action {
+        background: #fff;
+        padding: 10px;
+        margin-top: 20px
+    }
+    .background-call-to-action {
+        background: #fff;
+        margin: 0 auto;
+        border-radius: 0;
+        box-shadow: none
+    }
+    .students {
+        margin: 0 auto;
+        width: 25%;
+        padding-top: 25px
+    }
+    .right-block {
+        float: none
+    }
+    .background-cta {
+        height: 235px;
+        width: 480px;
+        margin-top: -154px;
+        padding: 41px 40px 43px 40px
+    }
+
+    .carousel-indicators {
+        bottom: -20px
+    }
+    section.call-to-action h2 {
+        margin: 30px
+    }
+    span#text-underline-students:after {
+        width: 92px;
+        margin: -6px 0 0 94px;
+        background: 0 0
+    }
+}
+
+@media (max-width:600px) {
+
+    .imgaprender {
+        margin-left: -50%
+    }
+    .students {
+        margin: 0 auto;
+        width: 50%;
+        padding-top: 25px
+    }
+    .call-to-action {
+        background: #fff;
+        padding: 10px;
+        margin-top: 20px
+    }
+    .background-call-to-action {
+        background: #fff;
+        margin: 0;
+        border-radius: 0;
+        box-shadow: none
+    }
+    span#text-underline-comofunciona:after {
+        margin: -6px 0 0 262px
+    }
+    span#text-underline:after {
+        margin: -6px 0 0 268px;
+        width: 162px
+    }
+    span#text-underline-students:after {
+        margin: -6px 0 0 266px;
+        width: 90px
+    }
+    span#text-underline-b2b-alumnos:after {
+        margin: -6px 0 0 268px
+    }
+    section.b2b-alumnos h2.section-heading {
+        padding: 20px
+    }
+}
+
+@media (min-width:440px) and (max-width:479px) {
+    section.b2b-alumnos {
+        height: 70em !important;
+    }
+    .padding-cta {
+        padding-top: 50px !important;
+    }
+}
+
+
+
+@media (max-width:480px) {
+    .mobile-hero-arrow {
+        position: absolute;
+        top: 72%;
+        right: 10%;
+        width: 25px;
+    }
+
+    span#text-underline-comofunciona:after {
+        margin: -6px 0 0 210px
+    }
+    section.b2b-alumnos {
+        height: 238vh;
+        background: linear-gradient(#fff 0, #fff 20%, #0084ff 20%)
+    }
+    section.b2b-alumnos h2.section-heading {
+        margin: 50px 0 40px 0;
+        font-size: 1.8em
+    }
+    .padding-cta {
+        padding-top: 0
+    }
+    .background-cta {
+        border-radius: 6px;
+        z-index: 150;
+        position: relative;
+        height: auto;
+        padding: 25px 20px 20px 20px;
+        margin-top: -130px
+    }
+    section.cta {
+        padding: 18px
+    }
+    .cta .section-heading {
+        font-size: 26px;
+        margin: 0
+    }
+    .text-cta {
+        font-size: 18px;
+        margin: 0
+    }
+    .right-block {
+        float: initial
+    }
+    .cta .btn-primary {
+        margin: 20px 0
+    }
+}
+
+@media (max-width:440px) {
+    body {
+        overflow-x: hidden
+    }
+    span#text-underline:after {
+        height: 5px;
+        margin: -6px 0 0 176px;
+        width: 162px;
+        display: none
+    }
+    span#text-underline-b2b-alumnos:after {
+        display: none
+    }
+    section.efectivo h2.section-heading {
+        font-size: 24px;
+        text-align: center;
+        padding: 90px 0 50px
+    }
+    section.efectivo .computer {
+        padding-top: 15px;
+        width: 100%;
+        height: 100%;
+        margin: 0
+    }
+    .imgaprender {
+        margin-left: -117%
+    }
+    span#text-underline-comofunciona:after {
+        margin: -6px 0 0 175px
+    }
+    section.comofunciona {
+        padding: 40px 0 136px!important
+    }
+    section.comofunciona .woman {
+        margin-top: 10px
+    }
+    section.b2b-alumnos {
+        height: 62em;
+        background: linear-gradient(#fff 0, #fff 50%, #0084ff 50%)
+    }
+    section.b2b-alumnos h2.section-heading {
+        margin: 0 0 20px 0;
+        font-size: 1.9em
+    }
+    .padding-cta {
+        padding-top: 50px
+    }
+    .background-cta {
+        border-radius: 6px;
+        z-index: 150;
+        position: relative;
+        height: auto;
+        padding: 30px 20px 20px 20px;
+        margin-top: 40px
+    }
+    section.cta {
+        padding: 18px;
+        margin-top: 0;
+        background: linear-gradient(#0084ff 0, #0084ff 55%, #edf6ff 55%)
+    }
+    .cta .section-heading {
+        font-size: 24px;
+        margin: 0
+    }
+    .text-cta {
+        font-size: 16px;
+        margin: 0
+    }
+    .right-block {
+        float: initial
+    }
+    .cta .btn-primary {
+        margin: 25px
+    }
+    .carousel-indicators {
+        bottom: -20px
+    }
+    span#text-underline-students:after {
+        width: 90px;
+        margin: -6px 0 0 70px;
+        background: #f60
+    }
+}
+
+@media (min-width:380px) and (max-width:384px) {
+    section.quieroaprender h2.section-heading {
+        padding: 50px 0
+    }
+    .imgaprender {
+        margin-left: -134%
+    }
+    section.comofunciona {
+        padding: 40px 0 140px
+    }
+    section.comofunciona .woman {
+        margin-top: 10px
+    }
+    span#text-underline-comofunciona:after {
+        margin: -6px 0 0 152px
+    }
+    section.b2b-alumnos {
+        height: 58em;
+        background: linear-gradient(#fff 0, #fff 50%, #0084ff 50%)
+    }
+    section.b2b-alumnos h2.section-heading {
+        margin: 0;
+        font-size: 1.9em
+    }
+    .padding-cta {
+        padding-top: 50px
+    }
+    .background-cta {
+        border-radius: 6px;
+        z-index: 150;
+        position: relative;
+        height: auto;
+        padding: 30px 20px 20px 20px;
+        margin-top: 40px
+    }
+    section.cta {
+        padding: 18px;
+        margin-top: 0;
+        background: linear-gradient(#0084ff 0, #0084ff 55%, #edf6ff 55%)
+    }
+    .cta .section-heading {
+        font-size: 24px;
+        margin: 0
+    }
+    .text-cta {
+        font-size: 16px;
+        margin: 0
+    }
+    .right-block {
+        float: initial
+    }
+    .cta .btn-primary {
+        margin: 25px
+    }
+}
+
+
+
+@media (min-width:360px) and (max-width:380px) {
+    section.quieroaprender h2.section-heading {
+        padding: 50px 10px
+    }
+    .imgaprender {
+        margin-left: -151% !important;
+    }
+    span#text-underline-students:after {
+        margin: -6px 0 0 92px;
+        width: 90px;
+        background: #f60
+    }
+    span#text-underline-comofunciona:after {
+        margin: -6px 0 0 158px
+    }
+    section.comofunciona {
+        padding: 40px 0 144px
+    }
+    section.comofunciona .woman {
+        margin-top: 10px
+    }
+    .arrow-vertical {
+        margin-top: -10%
+    }
+    section.b2b-alumnos {
+        height: 58em;
+        background: linear-gradient(#fff 0, #fff 50%, #0084ff 50%)
+    }
+    section.b2b-alumnos h2.section-heading {
+        margin: 0;
+        font-size: 1.9em
+    }
+    .padding-cta {
+        padding-top: 50px
+    }
+    .background-cta {
+        border-radius: 6px;
+        z-index: 150;
+        position: relative;
+        height: auto;
+        padding: 30px 20px 20px 20px;
+        margin-top: 40px
+    }
+    section.cta {
+        padding: 18px;
+        margin-top: 0;
+        background: linear-gradient(#0084ff 0, #0084ff 55%, #edf6ff 55%)
+    }
+    .cta .section-heading {
+        font-size: 23px;
+        margin: 0
+    }
+    .text-cta {
+        font-size: 16px;
+        margin: 0
+    }
+    .right-block {
+        float: initial
+    }
+    .cta .btn-primary {
+        margin: 25px 0
+    }
+    section.efectivo h2.section-heading {
+        font-size: 24px;
+        text-align: center;
+        padding: 60px 0
+    }
+    .wrapper-ofrecemos-alumnos p.data-alumnos {
+        font-size: 14px
+    }
+}
+
+@media (max-width:360px) {
+    span#text-underline-comofunciona:after {
+        margin: -6px 0 0 150px
+    }
+    span#text-underline-students:after {
+        margin: -6px 0 0 12px;
+        width: 90px;
+        background: 0 0
+    }
+}
+
+@media (max-width:320px) {
+    .imgaprender {
+        margin-left: -186%
+    }
+    section.efectivo {
+        text-align: center;
+        padding-top: 40px
+    }
+    .background-call-to-action {
+        margin: 0;
+        box-shadow: none
+    }
+    .arrow-vertical {
+        margin-top: -15%
+    }
+    section.efectivo h2.section-heading {
+        font-size: 24px;
+        text-align: center;
+        padding-top: 60px
+    }
+    section.efectivo .computer {
+        padding-top: 0
+    }
+    .text-aprender {
+        width: 100%
+    }
+    section.comofunciona {
+        padding: 43px 0 140px
+    }
+    section.comofunciona .woman {
+        margin-top: 0
+    }
+    span#text-underline-comofunciona:after {
+        margin: -6px 0 0 120px
+    }
+    span#text-underline-students:after {
+        margin: -6px 0 0 22px;
+        width: 90px;
+        background: #f60
+    }
+    section.b2b-alumnos {
+        height: 58em;
+        background: linear-gradient(#fff 0, #fff 50%, #0084ff 50%)
+    }
+    section.b2b-alumnos h2.section-heading {
+        margin: 10px 0 0 0;
+        font-size: 1.8em
+    }
+    .padding-cta {
+        padding-top: 50px
+    }
+    .background-cta {
+        border-radius: 6px;
+        z-index: 150;
+        position: relative;
+        height: auto;
+        padding: 25px 20px 20px 20px;
+        margin-top: 40px
+    }
+    section.cta {
+        padding: 18px;
+        margin-top: 0;
+        background: linear-gradient(#0084ff 0, #0084ff 55%, #edf6ff 55%)
+    }
+    .cta .section-heading {
+        font-size: 19px;
+        margin: 0
+    }
+    .text-cta {
+        font-size: 21px !important;
+        line-height: 21px !important;
+        margin: 0
+    }
+    .right-block {
+        float: initial
+    }
+    .cta .btn-primary {
+        margin: 20px 0
+    }
+    section.quieroaprender h2.section-heading {
+        font-size: 24px
+    }
+    .wrapper-ofrecemos-alumnos p.data-alumnos {
+        font-size: 14px
+    }
+}
+
+
+
+/*Hero css*/
+
+.margin-text-hero .text-hero {
+    font-family: 'Muli', sans-serif;
+    font-weight: 500;
+    color: #000;
+    line-height: 36px;
+    font-size: 28px;
+    text-align: center;
+}
+span.text-learning-blue {
+    color: #0084ff;
+    font-size: 36px;
+    font-weight: 800;
+}
+span.text-learning-underline {
+    border-bottom: 5px solid #ff6600;
+}
+.margin-text-hero h1.text-learning {
+    font-family: muli;
+    font-weight: 900;
+    color: #000;
+    line-height: 55px;
+    font-size: 51px;
+    text-align: center;
+    margin-bottom: 0;
+}
+span.text-hero-light {
+    color: #0084ff;
+}
+
+.margin-text-hero .arrow{
+    float: right;
+    margin-right: 40px;
+    margin-top: 10px;
+}
+
+
+
+@media(min-width:991px){
+    .lf {
+        margin-top: 75px;
+    }
+    #hero {
+        min-height: 600px;
+        background-position: 45% 0;
+    }
+    .margin-text-hero {
+        margin: 58px auto 10px 10px;
+        width: 100%;
+    }
+}
+@media(max-width:991px){
+    .hero-text {
+        margin-top: 0px;
+    }
+    #hero{
+        background-image: url(wp-content/uploads/2020/03/promo_30_6_website_hero_design_mobile_alpha.png) !important;
+        background-size: contain !important;
+        background-repeat: no-repeat;
+        background-color: #c1ec50 !important;
+    }
+    .lf{
+        display: contents;
+    }
+}
+@media (max-width: 1200px){
+    .margin-text-hero h1.text-learning {
+        font-size: 45px;
+    }
+    .terms-hero {
+        margin-left: 13%;
+    }
+    .margin-text-hero {
+        margin: 58px auto 10px 10px;
+        width: 100%;
+    }
+    .margin-text-hero h1.text-learning {
+        line-height: 50px;
+        font-size: 48px;
+    }
+    .margin-text-hero .text-hero {
+        line-height: 32px;
+        font-size: 24px;
+    }
+    .margin-text-hero .text-hero {
+        line-height: 32px;
+        font-size: 24px;
+    }
+}
+@media (max-width: 991px) and (min-width: 751px){
+    .margin-text-hero h1.text-learning {
+        line-height: 1;
+        font-size: 3em;
+        margin-top: 0.5em;
+    }
+    .margin-text-hero .text-hero {
+        line-height: 1;
+        font-size: 2em;
+    }
+    span.text-learning-blue {
+        color: #0084ff;
+        font-size: 2em;
+        font-weight: 800;
+    }
+    .margin-text-hero {
+        margin: 45px auto 60px 0px;
+    }
+}
+
+@media (max-width: 750px){ 
+    .terms-hero {
+    font-size: 10px;
+}
+    .margin-text-hero {
+        margin: 0px auto 25px 0px;
+    }
+    .margin-text-hero h1.text-learning   {
+        line-height: 55px;
+    }
+}
+
+@media (max-width: 601px){
+    .margin-text-hero .text-hero {
+        line-height: 18px;
+        font-size: 17px;
+        margin-left: 0px;
+    }
+    .margin-text-hero .margin-text-hero {
+        margin: 22px auto 10px 0px;
+    }
+    .margin-text-hero h1.text-learning {
+     font-size: 27px;
+    line-height: 24px;
+    margin-top: 10px;
+    }
+    span.text-learning-blue {
+        color: #0084ff;
+        font-size: 20px;
+        font-weight: 800;
+    }
+}
+@media (max-width:414px) {
+
+.margin-text-hero .text-hero {
+    line-height: 22px;
+}
+}
+@media (max-width: 360px){
+    .margin-text-hero {
+        margin: 10px auto 25px 0px;
+    }
+    .margin-text-hero h1.text-learning {
+       margin-bottom: 0px;
+    font-size: 20px;
+    line-height: 20px;
+    }
+.terms-hero {
+    font-size: 8px;
+    margin-top: 5px!important;
+}
+}
+@media (max-width: 320px){
+.margin-text-hero h1.text-learning {
+    margin-bottom: 0px;
+    font-size: 18px;
+    line-height: 17px;
+}
+.terms-hero {
+    margin-top: 0px!important;
+}
+}</style> <script src="./Open English Sitio Oficial. Clases en Vivo Online las 24 Horas._files/799305916.js.descarga"></script> <link rel="stylesheet" href="./Open English Sitio Oficial. Clases en Vivo Online las 24 Horas._files/css" media="all"><script data-cfasync="false" id="ao_optimized_gfonts_webfontloader">(function() {var wf = document.createElement('script');wf.src='https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';wf.type='text/javascript';wf.async='true';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(wf, s);})();</script><script src="./Open English Sitio Oficial. Clases en Vivo Online las 24 Horas._files/f(1).txt"></script><script src="./Open English Sitio Oficial. Clases en Vivo Online las 24 Horas._files/f(2).txt"></script><script type="text/javascript" src="chrome-extension://hjngolefdpdnooamgdldlkjgmdcmcjnc/content/mathJaxBundle.js"></script></head><body><header id="header" class="navbar navbar-inverse navbar-fixed-top" role="navigation"><div id="top-nav" class="global-navigation"><div class="container"><div class="row"><ul id="menu-global-nav" class="nav navbar-nav global-menu"><li class="current-menu-item"><a href="https://www.openenglish.com/">Para Adultos</a></li><li><a href="https://www.openenglish.com/junior/">Para Niños</a></li><li><a href="https://www.openenglish.com/para-empresas">Para Empresas</a></li></ul><div class="hidden-xs hidden-sm pull-right"><div class="header-cta pull-right"><div class="dropdown">Acceso a estudiantes<span class="caret"></span><ul class="dropdown-menu"><li><a href="https://learningplatform.openenglish.com/login.html">Para Adultos</a></li><li><a href="https://junior.openenglish.com/">Para Niños</a></li></ul></div> <span>|</span> <a href="https://www.openenglish.com/comenzar/" class="registrate">Regístrate</a></div></div></div></div></div><div id="primary-nav" class="navbar-header"><div class="container"><div class="row"> <a href="https://www.openenglish.com/" class="navbar-brand oe-logo"><noscript><img src="/wp-content/uploads/2017/07/logo-black.png" alt="Open English logo"></noscript><img class=" ls-is-cached lazyloaded" src="./Open English Sitio Oficial. Clases en Vivo Online las 24 Horas._files/logo-black.png" data-src="/wp-content/uploads/2017/07/logo-black.png" alt="Open English logo"></a> <button type="button" class="c-hamburger c-hamburger--htx menu-link visible-xs visible-sm" data-toggle="collapse" data-target="#menuLinks"><span>toggle menu</span></button><div id="navContactContainer"><div id="login-form-container" class="login-form dropdown hidden-xs hidden-sm"> <span class="select-area dropdown-toggle" id="#dropdown-toggle" data-toggle="dropdown"> <span class="center phone_holder">+1-855-244-4040</span> <span class="caret"></span> <a class="select-opener login"></a> </span><ul class="dropdown-menu phone_list" role="menu" aria-labelledby="dLabel1"><li role="presentation"><a class="phone" role="menuitem" id="country-link-ar" data-isocode="ar" data-phone="0810-810-6736" tabindex="-1" href="javascript:void(0)">Argentina</a></li><li role="presentation"><a class="phone" role="menuitem" id="country-link-bo" data-isocode="bo" data-phone="+1-855-244-4040" tabindex="-1" href="javascript:void(0)">Bolivia</a></li><li role="presentation"><a class="phone" role="menuitem" id="country-link-br" data-isocode="br" data-phone="4003-1474" tabindex="-1" href="javascript:void(0)">Brasil</a></li><li role="presentation"><a class="phone" role="menuitem" id="country-link-cl" data-isocode="cl" data-phone="(2) 2760-9060" tabindex="-1" href="javascript:void(0)">Chile</a></li><li role="presentation"><a class="phone" role="menuitem" id="country-link-co" data-isocode="co" data-phone="305 734 2122" tabindex="-1" href="javascript:void(0)">Colombia</a></li><li role="presentation"><a class="phone" role="menuitem" id="country-link-cr" data-isocode="cr" data-phone="4000-1939" tabindex="-1" href="javascript:void(0)">Costa Rica</a></li><li role="presentation"><a class="phone" role="menuitem" id="country-link-ec" data-isocode="ec" data-phone="(02) 221-4000" tabindex="-1" href="javascript:void(0)">Ecuador</a></li><li role="presentation"><a class="phone" role="menuitem" id="country-link-sv" data-isocode="sv" data-phone="2113-3532" tabindex="-1" href="javascript:void(0)">El Salvador</a></li><li role="presentation"><a class="phone" role="menuitem" id="country-link-es" data-isocode="es" data-phone="91-123-3079" tabindex="-1" href="javascript:void(0)">España</a></li><li role="presentation"><a class="phone" role="menuitem" id="country-link-us" data-isocode="us" data-phone="(855) 244-4040" tabindex="-1" href="javascript:void(0)">Estados Unidos de América</a></li><li role="presentation"><a class="phone" role="menuitem" id="country-link-gt" data-isocode="gt" data-phone="(2) 269-9455" tabindex="-1" href="javascript:void(0)">Guatemala</a></li><li role="presentation"><a class="phone" role="menuitem" id="country-link-hn" data-isocode="hn" data-phone="+1-855-244-4040" tabindex="-1" href="javascript:void(0)">Honduras</a></li><li role="presentation"><a class="phone" role="menuitem" id="country-link-mx" data-isocode="mx" data-phone="+525544405400" tabindex="-1" href="javascript:void(0)">México</a></li><li role="presentation"><a class="phone" role="menuitem" id="country-link-ni" data-isocode="ni" data-phone="+1-855-244-4040" tabindex="-1" href="javascript:void(0)">Nicaragua</a></li><li role="presentation"><a class="phone" role="menuitem" id="country-link-xx" data-isocode="xx" data-phone="+1-855-244-4040" tabindex="-1" href="javascript:void(0)">Otro</a></li><li role="presentation"><a class="phone" role="menuitem" id="country-link-pa" data-isocode="pa" data-phone="833-9014" tabindex="-1" href="javascript:void(0)">Panama</a></li><li role="presentation"><a class="phone" role="menuitem" id="country-link-py" data-isocode="py" data-phone="+1-855-244-4040" tabindex="-1" href="javascript:void(0)">Paraguay</a></li><li role="presentation"><a class="phone" role="menuitem" id="country-link-pe" data-isocode="pe" data-phone="1-706-4900" tabindex="-1" href="javascript:void(0)">Perú</a></li><li role="presentation"><a class="phone" role="menuitem" id="country-link-pr" data-isocode="pr" data-phone="(787) 710-9577" tabindex="-1" href="javascript:void(0)">Puerto Rico</a></li><li role="presentation"><a class="phone" role="menuitem" id="country-link-do" data-isocode="do" data-phone="(849) 936-8321" tabindex="-1" href="javascript:void(0)">República Dominicana</a></li><li role="presentation"><a class="phone" role="menuitem" id="country-link-uy" data-isocode="uy" data-phone="+1-855-244-4040" tabindex="-1" href="javascript:void(0)">Uruguay</a></li><li role="presentation"><a class="phone" role="menuitem" id="country-link-ve" data-isocode="ve" data-phone="+1-855-244-4040" tabindex="-1" href="javascript:void(0)">Venezuela</a></li></ul> <select class="phone_list"><option data-isocode="ar" value="0810-810-6736">Argentina</option><option data-isocode="bo" value="+1-855-244-4040">Bolivia</option><option data-isocode="br" value="4003-1474">Brasil</option><option data-isocode="cl" value="(2) 2760-9060">Chile</option><option data-isocode="co" value="305 734 2122">Colombia</option><option data-isocode="cr" value="4000-1939">Costa Rica</option><option data-isocode="ec" value="(02) 221-4000">Ecuador</option><option data-isocode="sv" value="2113-3532">El Salvador</option><option data-isocode="es" value="91-123-3079">España</option><option data-isocode="us" value="(855) 244-4040">Estados Unidos de América</option><option data-isocode="gt" value="(2) 269-9455">Guatemala</option><option data-isocode="hn" value="+1-855-244-4040">Honduras</option><option data-isocode="mx" value="+525544405400">México</option><option data-isocode="ni" value="+1-855-244-4040">Nicaragua</option><option data-isocode="xx" value="+1-855-244-4040">Otro</option><option data-isocode="pa" value="833-9014">Panama</option><option data-isocode="py" value="+1-855-244-4040">Paraguay</option><option data-isocode="pe" value="1-706-4900">Perú</option><option data-isocode="pr" value="(787) 710-9577">Puerto Rico</option><option data-isocode="do" value="(849) 936-8321">República Dominicana</option><option data-isocode="uy" value="+1-855-244-4040">Uruguay</option><option data-isocode="ve" value="+1-855-244-4040">Venezuela</option></select></div> <a id="phone_tel_number" href="tel:+1-855-244-4040" class="fa fa-phone"></a></div><nav class="collapse navbar-collapse wrapper-nav-oe" id="menuLinks"><ul id="menu-menu-principal" class="nav navbar-nav oe-main-nav"><li class="visible-xs-block visible-sm-block orange"><a href="https://www.openenglish.com/comenzar/">Regístrate</a></li><li class="visible-xs-block visible-sm-block divider"><a href="https://www.openenglish.com/#">Entrar<span class="sub-menu-toggle"><i class="fa fa-chevron-down" aria-hidden="true"></i></span></a><ul class="sub-menu"><li><a href="https://learningplatform.openenglish.com/login.html?source=website">Para Adultos</a></li><li><a href="https://junior.openenglish.com/">Para Niños</a></li></ul></li><li><a href="https://www.openenglish.com/curso/">El Curso</a></li><li><a href="https://www.openenglish.com/como-funciona/">Cómo Funciona</a></li><li><a href="https://www.openenglish.com/comenzar/">Comenzar</a></li></ul></nav></div></div></div></header><div id="promoWrapper" class="alert alert-promo blue-bkd" role="alert"><div class="container"><div class="promo-banner-content" style="text-align: center;"><div class="promo-banner-msg"><strong>#QuédateEnCasa</strong> <br class="visible-xs visible-sm">y conéctate a clases en vivo <strong>GRATIS</strong> <br class="visible-xs visible-sm">con nuestros profesores</div><div class="promo-banner-link"><strong><a class="btn btn-promo" href="https://www.openenglish.com/mini-clases-de-ingles-basico/">¡Quiero asistir!</a></strong></div></div></div></div><style>@import url('https://fonts.googleapis.com/css?family=Muli:700,900');
+@import url('https://fonts.googleapis.com/css?family=Muli:700,900');
+@import url('https://fonts.googleapis.com/css?family=Lato:700,900');
+@import url('https://fonts.googleapis.com/css?family=Nunito:600, 900');
+.gratisb{ height: 40px; }
+.pum-theme-999 .pum-content + .pum-close,
+.pum-theme-blank .pum-content + .pum-close {
+  color:#000;
+}
+.pum-theme-999 .pum-content + .pum-close,
+.pum-theme-blank .pum-content + .pum-close {
+  color:#000;
+}
+.promo-banner-msg strong{
+color:#fff;
+    font-weight:900;
+}
+.borderbb{border-bottom: 2px solid #bbfe41;}
+.alert {
+    margin-bottom: 0px !important;
+}
+.alert.blue-bkd {
+    padding: 7px;
+    padding-bottom: 7px !important;
+    margin-bottom: 0;
+    border: none;
+    border-radius: 0;
+    padding-bottom: 3px;
+}
+.alert-promo {
+    color: #000;
+    border-color: transparent;
+    background-color: transparent;
+}
+.blue-bkd {
+ background-image: url(/wp-content/uploads/2020/03/atp-6328-2019-02-oe-flash_promo_hp_banner_design-desktop.jpg); 
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #ff7900;
+    height: 56px;
+}
+.promo-banner-content {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+.promo-banner-msg {
+    color: #fff;
+    display: inline-block;
+    font-family: 'Muli';
+    font-size: 1.2rem;
+    font-weight:500;
+    text-align: left;
+    vertical-align: middle;
+    margin-top:0;
+    position:relative;
+}
+span#text-underline-color {
+    font-family: Muli;
+    border-bottom: 3px solid #ff0000 !important;
+}
+.blue-bkd .promo-banner-msg {
+  color: #fff;
+  font-family: 'Muli', sans-serif;
+  font-weight: 600;
+}
+.hot-sale-text {
+  display: inline-block;
+  margin-right: 5px;
+}
+.promo-banner-msg > .blue{
+    font-weight:500;
+  color:#0084ff;
+}
+.promo-banner-msg > .orange{
+    font-weight:900;
+    color:#ff6600;
+}
+.promo-banner-msg > .yellow{
+    font-weight:900;
+    color:#fffc00;
+}
+.promo-banner-msg > .white{
+    font-weight:600;
+    color:#fff;
+    font-family: 'Lato', sans-serif;
+}
+.promo-banner-link {
+    display: inline-block;
+    margin-right: 10px;
+    text-align: center;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+.btn-promo {
+    background-color: #0084ff;
+    border-radius: 30px;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 0;
+    padding: 8px 40px;
+    margin: 2px 20px;
+    font-family: 'Muli', sans-serif;
+    height: 40px;
+    box-shadow: 0px 0px 6px 2px #a2a2a2;
+}
+.btn-promo:active,
+.btn-promo:focus,
+.btn-promo:hover {
+    background-color: #0084ff;
+        color: #000;
+}
+@media (min-width: 991px) and (max-width: 1200px) {
+  .btn-promo {
+        margin: 0 5px 0 20px;
+   }
+  .promo-banner-msg {
+    font-size:1rem;
+  }
+}
+@media (max-width:768px) {
+  .banner-ctn {
+      margin-right: 0;
+      margin-left: 0;
+  }
+  .alert-promo {
+        height: auto;
+    }
+    .promo-banner-content {
+        margin-top: 0;
+        width: 100%;
+    }
+    .promo-banner-msg {
+        display: block;
+        margin: 0;
+        text-align: center;
+        width: 100%;
+    }
+    .promo-banner-link {
+        display: block;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 5px;
+        margin-top: 10px;
+        width: 100%;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+   .alert.blue-bkd {
+    background-size:cover;
+  }
+  .promo-banner-msg {
+        width: auto;
+        text-align: center;
+        font-size: 1.25rem;
+            margin-top: 10px;
+  }
+  .promo-banner-link {
+        margin-right: 0;
+        display: block;
+            margin-top:10px;
+            margin-bottom: 10px;
+  }
+}
+@media (max-width:991px) {
+.blue-bkd {
+      /* background-image: url("/wp-content/uploads/2020/02/oe-latam-66_banner-mobile_v1.jpg"); */
+      background: #ff7900;
+  }
+.hide-mobile{
+   display:none;
+  }
+.alert.blue-bkd {
+    padding-top:0 !important;
+    padding-bottom:0 !important;
+    height: auto;
+  }
+.promo-banner-msg {
+    margin-left: 0;
+    color: #fff;
+    font-size: 1rem;
+    margin-top: 10px;
+    text-align: center;
+   }
+.promo-banner-link {
+    margin: 10px 0px;
+    display:block;
+  }
+.alert.blue-bkd {
+    background-color: #ff7a00 !important;
+  }
+}
+/* @media(min-width:1200px){
+ .promo-banner-msg {
+    margin-left: 20px;
+ }
+} */</style><style>#pum-1005 .pum-content.popmake-content {background-image: url(/wp-content/uploads/2020/03/atp-10309-2020-03-oe_flash_promo_design_pop_up_test_website.jpg);}</style><style>#hero { 
+                    background-image:url(https://www.openenglish.com/wp-content/uploads/2020/03/hero_generic_latam_2020new.jpg);
+                                    }</style><section class="hero  test-class" id="hero"><div class="container"><div class="container no-padding"><div class="row"><div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-5 col-md-offset-3 text-wrapper"><div class="hero-text"><div class="margin-text-hero"><h3 class="text-hero">Aprende inglés fácil y rápido<br> <span class="text-learning-blue">¡sin <span class="text-learning-underline">salir de casa</span>!</span></h3><h1 class="text-learning">Con la compra<br> de 1 curso te<br> <span class="text-hero-light">regalamos</span> otro</h1><p> <noscript><img class="arrow img-responsive hidden-xs hidden-sm" src="/wp-content/uploads/2019/10/arrow.png" /></noscript><img class="arrow img-responsive hidden-xs hidden-sm lazyloaded" src="./Open English Sitio Oficial. Clases en Vivo Online las 24 Horas._files/arrow.png" data-src="/wp-content/uploads/2019/10/arrow.png"></p><p class="terms-hero">Promoción válida solo para planes prepagados. <br class="visible-xs visible-md visible-lg">Excluye planes de EDUCENTROS S.A.S.</p><p></p></div><p></p></div><p></p></div><div class="col-md-4 col-md-offset-0 col-sm-10 col-sm-offset-1"><div class="lf"><div id="leadformContainer" data-version="7437eb0"><div class="lead-form-project"> <form id="leadForm" name="leadForm" class="form-horizontal lead-form" role="form" novalidate=""> <div class="form-group"><div id="leadform-title" class="h2 text-center">Empieza a Aprender Inglés</div><div class="col-xs-12 col-sm-6"> <label for="firstName">Nombre *</label> <input class="form-control" id="firstname-input" type="text" placeholder="Nombre *" value="" name="firstName"> </div> <div class="col-xs-12 col-sm-6"> <label for="lastName">Apellido *</label> <input class="form-control" id="lastname-input" type="text" placeholder="Apellido *" value="" name="lastName"> </div> <div class="col-xs-12 "> <label for="emailAddress">Correo electrónico *</label> <input class="form-control" id="emailaddress-input" type="email" placeholder="Correo electrónico *" value="" name="emailAddress"> </div> <div class="col-xs-12 " style="display: block;"> <select class="form-control" id="country-select" value="" name="country"><option value="" disabled="disabled">País de residencia *</option><option value="ar" data-countryid="337" data-ispopular="true" data-phoneid="336">Argentina</option><option value="bo" data-countryid="284" data-ispopular="true" data-phoneid="283">Bolivia</option><option value="br" data-countryid="219" data-ispopular="true" data-phoneid="218">Brasil</option><option value="cl" data-countryid="303" data-ispopular="true" data-phoneid="302">Chile</option><option value="co" data-countryid="351" data-ispopular="true" data-phoneid="350">Colombia</option><option value="cr" data-countryid="273" data-ispopular="true" data-phoneid="272">Costa Rica</option><option value="ec" data-countryid="266" data-ispopular="true" data-phoneid="265">Ecuador</option><option value="sv" data-countryid="354" data-ispopular="true" data-phoneid="353">El Salvador</option><option value="es" data-countryid="206" data-ispopular="true" data-phoneid="205">España</option><option value="us" data-countryid="293" data-ispopular="true" data-phoneid="292">Estados Unidos de América</option><option value="gt" data-countryid="253" data-ispopular="true" data-phoneid="252">Guatemala</option><option value="hn" data-countryid="242" data-ispopular="true" data-phoneid="241">Honduras</option><option value="mx" data-countryid="250" data-ispopular="true" data-phoneid="249">México</option><option value="ni" data-countryid="271" data-ispopular="true" data-phoneid="270">Nicaragua</option><option value="pa" data-countryid="386" data-ispopular="true" data-phoneid="385">Panama</option><option value="py" data-countryid="385" data-ispopular="true" data-phoneid="384">Paraguay</option><option value="pe" data-countryid="290" data-ispopular="true" data-phoneid="289">Perú</option><option value="pr" data-countryid="223" data-ispopular="true" data-phoneid="222">Puerto Rico</option><option value="do" data-countryid="274" data-ispopular="true" data-phoneid="273">República Dominicana</option><option value="uy" data-countryid="277" data-ispopular="true" data-phoneid="276">Uruguay</option><option value="ve" data-countryid="246" data-ispopular="true" data-phoneid="245">Venezuela</option><option value="af" data-countryid="236" data-ispopular="false" data-phoneid="235">Afganistán</option><option value="al" data-countryid="384" data-ispopular="false" data-phoneid="383">Albania</option><option value="de" data-countryid="359" data-ispopular="false" data-phoneid="358">Alemania</option><option value="ad" data-countryid="301" data-ispopular="false" data-phoneid="300">Andorra</option><option value="ao" data-countryid="309" data-ispopular="false" data-phoneid="308">Angola</option><option value="ag" data-countryid="269" data-ispopular="false" data-phoneid="268">Antigua y Barbuda</option><option value="sa" data-countryid="342" data-ispopular="false" data-phoneid="341">Arabia Saudí</option><option value="dz" data-countryid="262" data-ispopular="false" data-phoneid="261">Argelia</option><option value="am" data-countryid="336" data-ispopular="false" data-phoneid="335">Armenia</option><option value="aw" data-countryid="391" data-ispopular="false" data-phoneid="390">Aruba</option><option value="au" data-countryid="238" data-ispopular="false" data-phoneid="237">Australia</option><option value="at" data-countryid="275" data-ispopular="false" data-phoneid="274">Austria</option><option value="az" data-countryid="299" data-ispopular="false" data-phoneid="298">Azerbaiyán</option><option value="bs" data-countryid="212" data-ispopular="false" data-phoneid="211">Bahamas</option><option value="bh" data-countryid="289" data-ispopular="false" data-phoneid="288">Bahréin</option><option value="bd" data-countryid="308" data-ispopular="false" data-phoneid="307">Bangladesh</option><option value="bb" data-countryid="230" data-ispopular="false" data-phoneid="229">Barbados</option><option value="eu" data-countryid="339" data-ispopular="false" data-phoneid="338">Bélgica</option><option value="bz" data-countryid="356" data-ispopular="false" data-phoneid="355">Belice</option><option value="bj" data-countryid="329" data-ispopular="false" data-phoneid="328">Benín</option><option value="bm" data-countryid="387" data-ispopular="false" data-phoneid="386">Bermudas</option><option value="by" data-countryid="353" data-ispopular="false" data-phoneid="352">Bielorrusia</option><option value="ba" data-countryid="285" data-ispopular="false" data-phoneid="284">Bosnia y Herzegovina</option><option value="bw" data-countryid="355" data-ispopular="false" data-phoneid="354">Botsuana</option><option value="bn" data-countryid="209" data-ispopular="false" data-phoneid="208">Brunei Darussalam</option><option value="bg" data-countryid="379" data-ispopular="false" data-phoneid="378">Bulgaria</option><option value="bf" data-countryid="214" data-ispopular="false" data-phoneid="213">Burkina Faso</option><option value="bi" data-countryid="345" data-ispopular="false" data-phoneid="344">Burundi</option><option value="bt" data-countryid="338" data-ispopular="false" data-phoneid="337">Bután</option><option value="cv" data-countryid="203" data-ispopular="false" data-phoneid="202">Cabo Verde</option><option value="kh" data-countryid="378" data-ispopular="false" data-phoneid="377">Camboya</option><option value="cm" data-countryid="210" data-ispopular="false" data-phoneid="209">Camerún</option><option value="ca" data-countryid="291" data-ispopular="false" data-phoneid="290">Canadá</option><option value="td" data-countryid="295" data-ispopular="false" data-phoneid="294">Chad</option><option value="cn" data-countryid="346" data-ispopular="false" data-phoneid="345">China</option><option value="cy" data-countryid="264" data-ispopular="false" data-phoneid="263">Chipre</option><option value="va" data-countryid="283" data-ispopular="false" data-phoneid="282">Ciudad del Vaticano</option><option value="km" data-countryid="292" data-ispopular="false" data-phoneid="291">Comoras</option><option value="kp" data-countryid="365" data-ispopular="false" data-phoneid="364">Corea, Rep Popular Democrática de</option><option value="kr" data-countryid="380" data-ispopular="false" data-phoneid="379">Corea, República de</option><option value="ci" data-countryid="321" data-ispopular="false" data-phoneid="320">Costa de Marfil</option><option value="hr" data-countryid="314" data-ispopular="false" data-phoneid="313">Croacia</option><option value="cu" data-countryid="221" data-ispopular="false" data-phoneid="220">Cuba</option><option value="cw" data-countryid="394" data-ispopular="false" data-phoneid="391">Curaçao</option><option value="dk" data-countryid="347" data-ispopular="false" data-phoneid="346">Dinamarca</option><option value="dm" data-countryid="363" data-ispopular="false" data-phoneid="362">Dominica</option><option value="eg" data-countryid="243" data-ispopular="false" data-phoneid="242">Egipto</option><option value="ae" data-countryid="362" data-ispopular="false" data-phoneid="361">Emiratos Árabes Unidos</option><option value="er" data-countryid="305" data-ispopular="false" data-phoneid="304">Eritrea</option><option value="sk" data-countryid="257" data-ispopular="false" data-phoneid="256">Eslovaquia</option><option value="si" data-countryid="251" data-ispopular="false" data-phoneid="250">Eslovenia</option><option value="ee" data-countryid="304" data-ispopular="false" data-phoneid="303">Estonia</option><option value="et" data-countryid="234" data-ispopular="false" data-phoneid="233">Etiopía</option><option value="ph" data-countryid="231" data-ispopular="false" data-phoneid="230">Filipinas</option><option value="fi" data-countryid="318" data-ispopular="false" data-phoneid="317">Finlandia</option><option value="fj" data-countryid="373" data-ispopular="false" data-phoneid="372">Fiyi</option><option value="fr" data-countryid="235" data-ispopular="false" data-phoneid="234">Francia</option><option value="ga" data-countryid="382" data-ispopular="false" data-phoneid="381">Gabón</option><option value="gm" data-countryid="281" data-ispopular="false" data-phoneid="280">Gambia</option><option value="ge" data-countryid="333" data-ispopular="false" data-phoneid="332">Georgia</option><option value="gh" data-countryid="229" data-ispopular="false" data-phoneid="228">Ghana</option><option value="gd" data-countryid="241" data-ispopular="false" data-phoneid="240">Granada</option><option value="gr" data-countryid="383" data-ispopular="false" data-phoneid="382">Grecia</option><option value="gn" data-countryid="366" data-ispopular="false" data-phoneid="365">Guinea</option><option value="gw" data-countryid="296" data-ispopular="false" data-phoneid="295">Guinea-Bissau</option><option value="gq" data-countryid="341" data-ispopular="false" data-phoneid="340">Guinea Ecuatorial</option><option value="gy" data-countryid="276" data-ispopular="false" data-phoneid="275">Guyana</option><option value="ht" data-countryid="316" data-ispopular="false" data-phoneid="315">Haití</option><option value="hu" data-countryid="287" data-ispopular="false" data-phoneid="286">Hungría</option><option value="in" data-countryid="218" data-ispopular="false" data-phoneid="217">India</option><option value="id" data-countryid="298" data-ispopular="false" data-phoneid="297">Indonesia</option><option value="ir" data-countryid="367" data-ispopular="false" data-phoneid="366">Irán, República Islámica de </option><option value="iq" data-countryid="240" data-ispopular="false" data-phoneid="239">Iraq</option><option value="ie" data-countryid="199" data-ispopular="false" data-phoneid="198">Irlanda</option><option value="is" data-countryid="237" data-ispopular="false" data-phoneid="236">Islandia</option><option value="mh" data-countryid="254" data-ispopular="false" data-phoneid="253">Islas Marshall</option><option value="sb" data-countryid="374" data-ispopular="false" data-phoneid="373">Islas Salomón</option><option value="il" data-countryid="326" data-ispopular="false" data-phoneid="325">Israel</option><option value="it" data-countryid="340" data-ispopular="false" data-phoneid="339">Italia</option><option value="jm" data-countryid="348" data-ispopular="false" data-phoneid="347">Jamaica</option><option value="jp" data-countryid="222" data-ispopular="false" data-phoneid="221">Japón</option><option value="jo" data-countryid="213" data-ispopular="false" data-phoneid="212">Jordania</option><option value="kz" data-countryid="307" data-ispopular="false" data-phoneid="306">Kazajistán</option><option value="ke" data-countryid="330" data-ispopular="false" data-phoneid="329">Kenia</option><option value="kg" data-countryid="300" data-ispopular="false" data-phoneid="299">Kirguistán</option><option value="ki" data-countryid="360" data-ispopular="false" data-phoneid="359">Kiribati</option><option value="kw" data-countryid="294" data-ispopular="false" data-phoneid="293">Kuwait</option><option value="ls" data-countryid="226" data-ispopular="false" data-phoneid="225">Lesoto</option><option value="lv" data-countryid="372" data-ispopular="false" data-phoneid="371">Letonia</option><option value="lb" data-countryid="376" data-ispopular="false" data-phoneid="375">Líbano</option><option value="lr" data-countryid="197" data-ispopular="false" data-phoneid="196">Liberia</option><option value="ly" data-countryid="344" data-ispopular="false" data-phoneid="343">Libia</option><option value="li" data-countryid="325" data-ispopular="false" data-phoneid="324">Liechtenstein</option><option value="lt" data-countryid="282" data-ispopular="false" data-phoneid="281">Lituania</option><option value="lu" data-countryid="312" data-ispopular="false" data-phoneid="311">Luxemburgo</option><option value="mk" data-countryid="279" data-ispopular="false" data-phoneid="278">Macedonia, República de</option><option value="mg" data-countryid="201" data-ispopular="false" data-phoneid="200">Madagascar</option><option value="my" data-countryid="202" data-ispopular="false" data-phoneid="201">Malasia</option><option value="mw" data-countryid="361" data-ispopular="false" data-phoneid="360">Malaui</option><option value="mv" data-countryid="205" data-ispopular="false" data-phoneid="204">Maldivas</option><option value="ml" data-countryid="200" data-ispopular="false" data-phoneid="199">Malí</option><option value="mt" data-countryid="311" data-ispopular="false" data-phoneid="310">Malta</option><option value="ma" data-countryid="247" data-ispopular="false" data-phoneid="246">Marruecos</option><option value="mu" data-countryid="358" data-ispopular="false" data-phoneid="357">Mauricio</option><option value="mr" data-countryid="377" data-ispopular="false" data-phoneid="376">Mauritania</option><option value="fm" data-countryid="267" data-ispopular="false" data-phoneid="266">Micronesia, Estados Federados de</option><option value="md" data-countryid="225" data-ispopular="false" data-phoneid="224">Moldavia</option><option value="mc" data-countryid="331" data-ispopular="false" data-phoneid="330">Mónaco</option><option value="mn" data-countryid="334" data-ispopular="false" data-phoneid="333">Mongolia</option><option value="me" data-countryid="256" data-ispopular="false" data-phoneid="255">Montenegro</option><option value="mz" data-countryid="207" data-ispopular="false" data-phoneid="206">Mozambique</option><option value="mm" data-countryid="319" data-ispopular="false" data-phoneid="318">Myanmar</option><option value="na" data-countryid="323" data-ispopular="false" data-phoneid="322">Namibia</option><option value="nr" data-countryid="249" data-ispopular="false" data-phoneid="248">Nauru</option><option value="np" data-countryid="261" data-ispopular="false" data-phoneid="260">Nepal</option><option value="ne" data-countryid="255" data-ispopular="false" data-phoneid="254">Níger</option><option value="ng" data-countryid="302" data-ispopular="false" data-phoneid="301">Nigeria</option><option value="no" data-countryid="364" data-ispopular="false" data-phoneid="363">Noruega</option><option value="nz" data-countryid="268" data-ispopular="false" data-phoneid="267">Nueva Zelanda</option><option value="om" data-countryid="263" data-ispopular="false" data-phoneid="262">Omán</option><option value="nl" data-countryid="278" data-ispopular="false" data-phoneid="277">Países Bajos</option><option value="pk" data-countryid="352" data-ispopular="false" data-phoneid="351">Pakistán</option><option value="pw" data-countryid="232" data-ispopular="false" data-phoneid="231">Palaos</option><option value="pg" data-countryid="313" data-ispopular="false" data-phoneid="312">Papúa Nueva Guinea</option><option value="pl" data-countryid="335" data-ispopular="false" data-phoneid="334">Polonia</option><option value="pt" data-countryid="272" data-ispopular="false" data-phoneid="271">Portugal</option><option value="ru" data-countryid="369" data-ispopular="false" data-phoneid="368">P?????</option><option value="qa" data-countryid="350" data-ispopular="false" data-phoneid="349">Qatar</option><option value="gb" data-countryid="244" data-ispopular="false" data-phoneid="243">Reino Unido</option><option value="cf" data-countryid="220" data-ispopular="false" data-phoneid="219">República Centroafricana</option><option value="cz" data-countryid="306" data-ispopular="false" data-phoneid="305">República Checa</option><option value="cd" data-countryid="390" data-ispopular="false" data-phoneid="389">República Democrática Popular Del Congo</option><option value="la" data-countryid="389" data-ispopular="false" data-phoneid="388">República Democrática Popular Lao</option><option value="rw" data-countryid="228" data-ispopular="false" data-phoneid="227">Ruanda</option><option value="ro" data-countryid="315" data-ispopular="false" data-phoneid="314">Rumania</option><option value="ws" data-countryid="260" data-ispopular="false" data-phoneid="259">Samoa</option><option value="kn" data-countryid="381" data-ispopular="false" data-phoneid="380">San Cristóbal y Nieves</option><option value="sm" data-countryid="224" data-ispopular="false" data-phoneid="223">San Marino</option><option value="lc" data-countryid="227" data-ispopular="false" data-phoneid="226">Santa Lucía</option><option value="st" data-countryid="252" data-ispopular="false" data-phoneid="251">Santo Tomé y Príncipe</option><option value="vc" data-countryid="322" data-ispopular="false" data-phoneid="321">San Vicente y las Granadinas</option><option value="sn" data-countryid="239" data-ispopular="false" data-phoneid="238">Senegal</option><option value="rs" data-countryid="368" data-ispopular="false" data-phoneid="367">Serbia</option><option value="sc" data-countryid="343" data-ispopular="false" data-phoneid="342">Seychelles</option><option value="sl" data-countryid="259" data-ispopular="false" data-phoneid="258">Sierra Leona</option><option value="sg" data-countryid="216" data-ispopular="false" data-phoneid="215">Singapur</option><option value="sy" data-countryid="317" data-ispopular="false" data-phoneid="316">Siria, República Árabe</option><option value="so" data-countryid="320" data-ispopular="false" data-phoneid="319">Somalia</option><option value="lk" data-countryid="258" data-ispopular="false" data-phoneid="257">Sri Lanka</option><option value="sz" data-countryid="324" data-ispopular="false" data-phoneid="323">Suazilandia</option><option value="za" data-countryid="211" data-ispopular="false" data-phoneid="210">Sudáfrica</option><option value="sd" data-countryid="217" data-ispopular="false" data-phoneid="216">Sudán</option><option value="se" data-countryid="371" data-ispopular="false" data-phoneid="370">Suecia</option><option value="ch" data-countryid="215" data-ispopular="false" data-phoneid="214">Suiza</option><option value="sr" data-countryid="208" data-ispopular="false" data-phoneid="207">Surinam</option><option value="th" data-countryid="245" data-ispopular="false" data-phoneid="244">Tailandia</option><option value="tz" data-countryid="265" data-ispopular="false" data-phoneid="264">Tanzania, Rep Unida de</option><option value="tj" data-countryid="248" data-ispopular="false" data-phoneid="247">Tayikistán</option><option value="tl" data-countryid="357" data-ispopular="false" data-phoneid="356">Timor Oriental</option><option value="tg" data-countryid="198" data-ispopular="false" data-phoneid="197">Togo</option><option value="to" data-countryid="375" data-ispopular="false" data-phoneid="374">Tonga</option><option value="tt" data-countryid="297" data-ispopular="false" data-phoneid="296">Trinidad y Tobago</option><option value="tn" data-countryid="349" data-ispopular="false" data-phoneid="348">Túnez</option><option value="tr" data-countryid="395" data-ispopular="false" data-phoneid="392">Türkiye</option><option value="tm" data-countryid="204" data-ispopular="false" data-phoneid="203">Turkmenistán</option><option value="tv" data-countryid="270" data-ispopular="false" data-phoneid="269">Tuvalu</option><option value="ua" data-countryid="280" data-ispopular="false" data-phoneid="279">Ucrania</option><option value="ug" data-countryid="310" data-ispopular="false" data-phoneid="309">Uganda</option><option value="uz" data-countryid="327" data-ispopular="false" data-phoneid="326">Uzbekistán</option><option value="vu" data-countryid="288" data-ispopular="false" data-phoneid="287">Vanuatu</option><option value="vn" data-countryid="332" data-ispopular="false" data-phoneid="331">Vietnam</option><option value="ye" data-countryid="233" data-ispopular="false" data-phoneid="232">Yemen</option><option value="dj" data-countryid="328" data-ispopular="false" data-phoneid="327">Yibuti</option><option value="zm" data-countryid="286" data-ispopular="false" data-phoneid="285">Zambia</option><option value="zw" data-countryid="370" data-ispopular="false" data-phoneid="369">Zimbabue</option></select> </div><div class="col-xs-12 " style="display: block;"> <select class="form-control" id="state-select" value="" name="state"><option value="" disabled="disabled">Región donde reside *</option><option value="27" data-phoneid="408">Chuquisaca</option><option value="103" data-phoneid="461">Cobija</option><option value="3" data-phoneid="395">Cochabamba</option><option value="234" data-phoneid="545">La Paz</option><option value="258" data-phoneid="560">Oruro</option><option value="56" data-phoneid="424">Potosí</option><option value="116" data-phoneid="469">Santa Cruz</option><option value="206" data-phoneid="525">Tarija</option><option value="80" data-phoneid="443">Trinidad</option></select> </div><div class="col-xs-12 " style="display: none;"> <select class="form-control" id="city-select" value="" name="city"><option value="">Ciudad *</option></select> </div><div class="col-xs-12" id="phone-input"> <div class="btn-toolbar"> <div id="phone-format-selector" class="btn-group btn-group-justified phone-mask-selector" data-toggle="buttons">  </div> </div>  <div id="phone-inputs"> </div> </div> <div class="col-xs-12 "> <label for="isforme-radio" class="radio-label">¿Para quién es el curso?</label> <div class="btn-toolbar" style="display: block;"> <div id="isforme-radio" class="btn-group btn-group-justified radio-selector" data-toggle="buttons"><label class="btn btn-default"> <input type="radio" name="isForMe" class="form-control" value="self">Para mí </label><label class="btn btn-default"> <input type="radio" name="isForMe" class="form-control" value="other">Para mi hijo </label></div> </div> </div><div class="col-xs-12 " style="display: none;"> <select class="form-control" id="agerange-select" value="" name="ageRange"><option value="" disabled="disabled"></option><option value="8">0-7 años</option><option value="9">8-10 años</option><option value="10">11-14 años</option><option value="11">15-18 años</option><option value="4">19-24 años</option><option value="5">25-34 años</option><option value="6">&gt; 35 años</option></select> </div><div class="col-xs-12 "> <label for="formLocation">Form Location</label> <input class="form-control" id="formlocation-input" type="text" placeholder="Form Location" value="main" name="formLocation" style="display: none;"> </div> <div class="col-xs-12 "> <label for="popUpLocation">Pop Up Location</label> <input class="form-control" id="popuplocation-input" type="text" placeholder="Pop Up Location" value="" name="popUpLocation" style="display: none;"> </div> <div class="col-xs-12 "> <label for="utm_placement">UTM Placement</label> <input class="form-control" id="utm_placement-input" type="text" placeholder="UTM Placement" value="" name="utm_placement" style="display: none;"> </div> <div class="col-xs-12 "> <label for="bannerVersion">Banner Version</label> <input class="form-control" id="bannerversion-input" type="text" placeholder="Banner Version" value="" name="bannerVersion" style="display: none;"> </div> <div id="USALegalText" class="col-xs-12 legal-text" style="display: none;">Al hacer clic debajo, nos autoriza a contactarle mediante un sistema automatizado de llamadas al teléfono indicado arriba, con el fin de recibir información relevante sobre Open English. Su consentimiento no constituye una condición de compra.</div><div id="required-div" class="col-xs-12 required-notice">* Requerido</div><div class="col-xs-12"> <button class="btn col-xs-12" id="submit-button" type="submit">Comienza ahora</button> </div></div> <div id="leadform-curtain" style="display: none;"> <img src="./Open English Sitio Oficial. Clases en Vivo Online las 24 Horas._files/aniloader.gif" alt="loader" width="100"> </div> </form> </div> </div> <script>var __LEADFORM_CONFIG = {"config":{"id":"leadformContainer","language":"es","useCheckoutFlow":false,"successUrlOEJR":"\/junior\/comenzar\/formulario\/","baseconfig":"oe-default-and-junior","useSurvey":true,"surveyUrl":"\/comenzar\/formulario\/","successUrl":"\/comenzar\/gracias"},"leadDtoOverrides":{"organization":"Open English","source":"OE.com"},"networkErrorText":"Se ha producido un error al intentar enviar el formulario. Por favor intente de nuevo.","formInputs":[{"type":"div","id":"leadform-title","text":"Empieza a Aprender Ingl\u00e9s","styles":"h2 text-center"},{"type":"input","subType":"text","name":"firstName","label":"Nombre *","styles":"col-sm-6","validation":{"required":{"value":true,"text":"Este campo es requerido."},"maxlength":{"value":40,"text":"La longitud del primer nombre debe ser de 40 caracteres o menos."},"pattern":{"value":"^[A-Za-z\u00c0-\u017f\u0400-\u04ff\\s]+$","text":"Ingrese un nombre y apellido v\u00e1lido."}}},{"type":"input","subType":"text","name":"lastName","label":"Apellido *","styles":"col-sm-6","validation":{"required":{"value":true,"text":"Este campo es requerido."},"maxlength":{"value":80,"text":"La longitud del apellido debe ser de 80 caracteres o menos."},"pattern":{"value":"^[A-Za-z\u00c0-\u017f\u0400-\u04ff\\s]+$","text":"Ingrese un nombre y apellido v\u00e1lido."}}},{"type":"input","subType":"email","name":"emailAddress","label":"Correo electr\u00f3nico *","validation":{"required":{"value":true,"text":"Este campo es requerido."},"pattern":{"value":"^(?:[a-zA-Z\u00e1-\u00ff0-9!\u00a1#$%&'*+\/=?\u00bf^_`{|}~-]+(?:\\.[a-zA-Z\u00e1-\u00ff0-9!\u00a1#$%&'*+\/=?\u00bf^_`{|}~-]+)*|\"(?:[\\x01-\\x08\\x0b\\x0c\\x0e-\\x1f\\x21\\x23-\\x5b\\x5d-\\x7f]|\\\\[\\x01-\\x09\\x0b\\x0c\\x0e-\\x7f])*\")@(?:(?:[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?\\.)+[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?|\\[(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?|[a-zA-Z0-9-]*[a-zA-Z0-9]:(?:[\\x01-\\x08\\x0b\\x0c\\x0e-\\x1f\\x21-\\x5a\\x53-\\x7f]|\\\\[\\x01-\\x09\\x0b\\x0c\\x0e-\\x7f])+)\\])$","text":"Ingrese un correo electr\u00f3nico v\u00e1lido."}}},{"type":"select","name":"country","label":"Pa\u00eds de residencia *","valueKey":"isoCode","textKey":"countryName","lazyLoad":true,"dataKeys":["countryId","isPopular","phone.phoneId"],"filterValues":["xx"],"validation":{"required":{"value":true,"text":"Este campo es requerido."}}},{"type":"select","name":"state","label":"Regi\u00f3n donde reside *","valueKey":"stateId","textKey":"stateName","lazyLoad":true,"dataKeys":["phoneId"],"validation":{"required":{"value":true,"text":"Este campo es requerido."}}},{"type":"select","name":"city","label":"Ciudad *","valueKey":"cityId","textKey":"cityName","lazyLoad":true,"dataKeys":["phoneId"],"validation":{"required":{"value":true,"text":"Este campo es requerido."}}},{"type":"phone-input","name":"phone","labels":{"line":"Fijo","mobile":"Celular","radio":"Nextel","phoneHint":"No es necesario ingresar el c\u00f3digo de su pa\u00eds.","modalTitle":"Formatos permitidos"},"validation":{"required":{"value":true,"text":"Este campo es requerido."},"maxlength":{"value":true},"phonemask":{"value":true,"text":"Tel\u00e9fono con formato inv\u00e1lido. Click aqui para ver los formatos permitidos."}}},{"type":"radio","name":"isForMe","label":"\u00bfPara qui\u00e9n es el curso?","custom":true,"source":[{"value":"self","text":"Para m\u00ed"},{"value":"other","text":"Para mi hijo"}],"validation":{"required":{"value":true,"text":"Este campo es requirido."}}},{"type":"select","name":"ageRange","labels":{"self":"\u00bfQu\u00e9 edad tienes? *","other":"\u00bfCu\u00e1l es su edad? *"},"source":"https:\/\/oe-lead-service-ext.openenglish.com\/ageranges","valueKey":"ageRangeId","textKey":"ageRange","sortKey":"displayOrder","cherryPickedValues":[8,9,10,11,4,5,6],"hidden":true,"validation":{"required":{"value":true,"text":"Este campo es requerido."}},"translations":{"0-7 years":"0-7 a\u00f1os","8-10 years":"8-10 a\u00f1os","11-14 years":"11-14 a\u00f1os","15-18 years":"15-18 a\u00f1os","19-24 years":"19-24 a\u00f1os","25-34 years":"25-34 a\u00f1os","> 35 years":"> 35 a\u00f1os"}},{"custom":true,"hidden":true,"label":"Form Location","name":"formLocation","queryParam":true,"type":"input","subType":"text"},{"custom":true,"hidden":true,"label":"Pop Up Location","name":"popUpLocation","queryParam":true,"type":"input","subType":"text"},{"custom":true,"hidden":true,"label":"UTM Placement","name":"utm_placement","queryParam":false,"type":"input","subType":"text"},{"custom":true,"hidden":true,"label":"Banner Version","name":"bannerVersion","queryParam":false,"type":"input","subType":"text"},{"type":"div","styles":"col-xs-12 legal-text","id":"USALegalText","text":"Al hacer clic debajo, nos autoriza a contactarle mediante un sistema automatizado de llamadas al tel\u00e9fono indicado arriba, con el fin de recibir informaci\u00f3n relevante sobre Open English. Su consentimiento no constituye una condici\u00f3n de compra."},{"type":"div","id":"required-div","styles":"col-xs-12 required-notice","text":"* Requerido"},{"type":"button","id":"submit-button","text":"Comienza ahora"}]};</script></div><p></p></div><p></p></div></div> <span class="hero-name"></span></div></section><section class="section efectivo"><div class="container"><div class="row"><div class="col-md-6 col-lg-6"><h2 class="section-heading"><strong>El método <span id="text-underline-orange">más efectivo</span> de Latinoamérica</strong></h2><div class="col-md-6 col-lg-6 no-padding show-device"><img class="img-responsive computer center-block" src="./Open English Sitio Oficial. Clases en Vivo Online las 24 Horas._files/oe_website_refresh_2019_computer.jpg" alt="plataforma open english" data-src="/wp-content/uploads/2019/05/oe_website_refresh_2019_computer.jpg"></div><h4 class="section-heading">Nuestro método comprobado se basa en estos <strong>tres pilares:</strong></h4></div></div><div class="row"><div class="col-md-6 col-lg-6"><div class="row"><div class="information-set"><div class="media"><div class="media-left"><img class="center-block hp-icons media-object" src="./Open English Sitio Oficial. Clases en Vivo Online las 24 Horas._files/icon-efectivo-01.png" alt="escuchar ingles" data-src="/wp-content/uploads/2015/12/icon-efectivo-01.png"></div><div class="media-body texto"><h3 class="media-heading blue">Profesores Norteamericanos</h3> ¡Habla inglés sin pena! Nuestros profesores certificados te enseñarán a pronunciar el inglés con la correcta pronunciación para que puedas hablar el idioma en público.</div></div></div><div class="information-set"><div class="media"><div class="media-left"><img class="center-block hp-icons media-object" src="./Open English Sitio Oficial. Clases en Vivo Online las 24 Horas._files/icon-efectivo-02.png" alt="escribir en ingles" data-src="/wp-content/uploads/2015/12/icon-efectivo-02.png"></div><div class="media-body texto"><h3 class="media-heading blue">Clases En Vivo</h3> Disfruta nuestras entretenidas clases en tiempo real conversando de temas que te gusten, tales como negocios, viajes y deportes.</div></div></div><div class="information-set"><div class="media"><div class="media-left"><img class="center-block hp-icons media-object" src="./Open English Sitio Oficial. Clases en Vivo Online las 24 Horas._files/icon-efectivo-03.png" alt="herramientas para aprender ingles" data-src="/wp-content/uploads/2015/12/icon-efectivo-03.png"></div><div class="media-body texto"><h3 class="media-heading blue">Herramientas Innovadoras</h3> <strong>¿Quieres complementar tus clases?</strong> Perfecciona tu pronunciación, gramática y vocabulario con divertidos ejercicios prácticos, herramientas de reconocimiento de voz, diccionario y traductor.<br> <a class="btn btn-primary" href="https://www.openenglish.com/como-funciona/">¡Conoce cómo funciona!</a></div></div></div></div></div><div class="col-md-6 col-lg-6 no-padding hidden-device"><img class="img-responsive computer center-block" src="./Open English Sitio Oficial. Clases en Vivo Online las 24 Horas._files/oe_website_refresh_2019_computer.jpg" alt="plataforma open english" data-src="/wp-content/uploads/2019/05/oe_website_refresh_2019_computer.jpg"></div></div></div></section><div id="curve" class="hidden-device"> <svg id="svg" xmlns="http://www.w3.org/2000/svg" viewBox="-300 0 900 270"> <path d="M-314,267 C105,270 500,170 812,279" fill="none" stroke="#007ff6" stroke-width="120" stroke-linecap="round"></path> </svg></div><section class="section quieroaprender"><div class="container"><div class="row"><div class="col-md-6 col-lg-6 hidden-device"><img class="img-responsive imgaprender center-block" src="./Open English Sitio Oficial. Clases en Vivo Online las 24 Horas._files/oe-latam-2019-quieroaprender-redesign-min.jpg" data-src="/wp-content/uploads/2019/07/oe-latam-2019-quieroaprender-redesign-min.jpg"></div><div class="col-md-6 col-lg-6"><h2 class="section-heading"><strong>4 grandes ventajas de aprender inglés</strong></h2><div class="row"><div class="col-sm-6 col-xs-12"><div class="information-set"><div class="media"><div class="media-body texto"><div class="top-icon"><img class="img-responsive" src="./Open English Sitio Oficial. Clases en Vivo Online las 24 Horas._files/icon-01.png" data-src="/wp-content/uploads/2019/05/icon-01.png"></div><div class="text-aprender"> <strong>Incrementas el valor de tu perfil profesional.</strong></div></div></div></div><div class="information-set show-device"><div class="media"><div class="media-body texto"><div class="top-icon"><img class="img-responsive" src="./Open English Sitio Oficial. Clases en Vivo Online las 24 Horas._files/icon-02.png" data-src="/wp-content/uploads/2019/05/icon-02.png"></div><div class="text-aprender"> <strong>Tienes mejores ofertas laborales.</strong></div></div></div></div><div class="information-set hidden-device"><div class="media"><div class="media-body texto"><div class="top-icon"><img class="img-responsive" src="./Open English Sitio Oficial. Clases en Vivo Online las 24 Horas._files/icon-03.png" data-src="/wp-content/uploads/2019/05/icon-03.png"></div><div class="text-aprender"> <strong>Consigues más oportunidades académicas en el exterior.</strong></div></div></div></div></div><div class="col-md-6 col-lg-6"><div class="information-set show-device"><div class="media"><div class="media-body texto"><div class="top-icon"><img class="img-responsive" src="./Open English Sitio Oficial. Clases en Vivo Online las 24 Horas._files/icon-03.png" data-src="/wp-content/uploads/2019/05/icon-03.png"></div><div class="text-aprender"> <strong>Consigues más oportunidades académicas en el exterior.</strong></div></div></div></div><div class="information-set hidden-device"><div class="media"><div class="media-body texto"><div class="top-icon"><img class="img-responsive" src="./Open English Sitio Oficial. Clases en Vivo Online las 24 Horas._files/icon-02.png" data-src="/wp-content/uploads/2019/05/icon-02.png"></div><div class="text-aprender"> <strong>Tienes mejores ofertas laborales.</strong></div></div></div></div><div class="information-set"><div class="media"><div class="media-body texto"><div class="top-icon"><img class="img-responsive" src="./Open English Sitio Oficial. Clases en Vivo Online las 24 Horas._files/icon-04.png" data-src="/wp-content/uploads/2019/05/icon-04.png"></div><div class="text-aprender"> <strong>Viajas el mundo y te comunicas con facilidad.</strong></div></div></div></div></div></div></div><div class="col-md-6 col-lg-6 show-device"><img class="img-responsive imgaprender center-block" src="./Open English Sitio Oficial. Clases en Vivo Online las 24 Horas._files/oe-latam-2019-quieroAprender-redesign.jpg" alt="aprender ingles con Andres Moreno" data-src="/wp-content/uploads/2019/07/oe-latam-2019-quieroAprender-redesign.jpg"></div></div></div></section><section class="call-to-action"><div class="container background-call-to-action"><div class="row"><div class="col-xs-12 col-xs-offset-0 col-sm-8 col-sm-offset-2 text-center hidden-device"><h2 class="section-heading"><strong>Nuestra escuela online, líder en Latinoamérica, cuenta con más de 600.000 estudiantes</strong></h2></div><div class="col-xs-12 col-xs-offset-0 col-sm-12 text-center show-device"><h2 class="section-heading"><strong>Nuestra escuela online, líder en latinoamérica, cuenta con más de 600.000 estudiantes</strong></h2></div><div class="col-xs-12 col-xs-offset-0 col-sm-12 show-device"><img class="students img-responsive show-device" src="./Open English Sitio Oficial. Clases en Vivo Online las 24 Horas._files/students-mobile.jpg" alt="estudiantes de open english" data-src="/wp-content/uploads/2019/05/students-mobile.jpg"></div><div class="col-xs-12 lead-form-btn text-center"><button class="btn btn-primary btn-lg" type="button">¡Aprende con nosotros!</button></div></div></div></section><section class="section comofunciona"><div class="container"><div class="row"><div class="col-md-6 col-lg-6"><h2 class="section-heading"><strong>¿Cómo <span id="text-underline-orange">funciona</span>?</strong></h2><h3 class="section-heading">Desde cualquier lugar, a cualquier hora</h3> Entra a la plataforma y disfruta tus clases en vivo con profesores norteamericanos disponibles las 24 horas del día desde cualquier parte con acceso a Internet. Podrás avanzar tan rápido como te lo propongas. Si quieres acelerar tu aprendizaje, <span id="text-selected">prueba nuestras clases privadas</span>.<h3 class="section-heading">Aprende fácil y rápido</h3> No memorices largas listas de palabras. Combinamos las clases con profesores norteamericanos con ejercicios interactivos para que desarrolles tu habilidad de conversar en inglés, al igual que tu pronunciación y gramática.<h3 class="section-heading">Hecho a tu medida</h3> Podrás desarrollar las áreas de tu interés y aprender tan rápido como lo necesites.<p class="padding-text"><strong>¿Quieres comenzar?</strong> Es muy fácil y rápido. ¡Inscríbete hoy mismo con métodos de pago que se ajustan a ti!</p> <a class="btn btn-primary" href="https://www.openenglish.com/como-funciona/">¡Conoce cómo funciona!</a></div><div class="col-md-6 col-lg-6"><img class="img-responsive woman center-block" src="./Open English Sitio Oficial. Clases en Vivo Online las 24 Horas._files/oe-latam-2019-comoFunciona-redesign.jpg" alt="profesora de open english" data-src="/wp-content/uploads/2019/05/oe-latam-2019-comoFunciona-redesign.jpg"></div></div></div></section><div id="curve-comofunciona" class="hidden-device"> <svg id="svg" xmlns="http://www.w3.org/2000/svg" viewBox="-300 0 900 330"> <path d="M-314,267 C105,270 500,170 812,279" fill="none" stroke="#fff" stroke-width="120" stroke-linecap="round"></path> </svg></div><section class="section b2b-alumnos hidden-device"><div class="container"><div class="row"><div class="col-sm-12 col-xs-12 col-md-12 text-center"><h2 class="section-heading"><strong>Conoce algunas de las miles <span id="text-underline-orange">historias de éxito</span> y ¡conviértete en una de ellas!</strong></h2></div></div><div class="row"><div class="col-md-4 col-sm-8 col-xs-12 col-sm-offset-2 col-md-offset-0 col-xs-offset-0 ofrecemos-alumnos"><div class="wrapper-ofrecemos-alumnos"><img class="title-box img-responsive center-block" src="./Open English Sitio Oficial. Clases en Vivo Online las 24 Horas._files/oe-latam-2019-student1.jpg" alt="opinion de open english Fabian Miranda" data-src="/wp-content/uploads/2019/05/oe-latam-2019-student1.jpg"><div class="content-box"><p class="alumnosName">Fabián Miranda</p><p class="data-alumnos">Araneda, Chile, Profesor</p><p class="text-alumnos">“Me ha gustado mucho la plataforma, es de uso sencillo y cuenta con herramientas que realmente sirven. Una muy buena experiencia.</p><div class="stars"><p class="star-on"></p></div><div class="quote-alumnos"></div></div></div></div><div class="col-md-4 col-sm-8 col-xs-12 col-sm-offset-2 col-md-offset-0 col-xs-offset-0 ofrecemos-alumnos"><div class="wrapper-ofrecemos-alumnos"><img class="title-box img-responsive center-block" src="./Open English Sitio Oficial. Clases en Vivo Online las 24 Horas._files/oe-latam-2019-student2.jpg" alt="opinion del curso de open english Maritha Rodas" data-src="/wp-content/uploads/2019/05/oe-latam-2019-student2.jpg"><div class="content-box"><p class="alumnosName">Maritha Rodas</p><p class="data-alumnos">Quispe, Peru, Marketera</p><p class="text-alumnos">“Es súper práctico y avanzas rápido. En mis momentos de relajo entro a practicar mi inglés y es muy interesante las clases en vivo”.</p><div class="stars"><p class="star-on"></p></div><div class="quote-alumnos"></div></div></div></div><div class="col-md-4 col-sm-8 col-xs-12 col-sm-offset-2 col-md-offset-0 col-xs-offset-0 ofrecemos-alumnos"><div class="wrapper-ofrecemos-alumnos"><img class="title-box img-responsive center-block" src="./Open English Sitio Oficial. Clases en Vivo Online las 24 Horas._files/oe-latam-2019-student3.jpg" alt="opiniones open english Jairo Alvarez" data-src="/wp-content/uploads/2019/05/oe-latam-2019-student3.jpg"><div class="content-box"><p class="alumnosName">Jhon Jairo Alvarez</p><p class="data-alumnos">Colombia, Tecnologo-estudiante univ</p><p class="text-alumnos">“Open English me ha ayudado a aprender vocabulario, es interactivo, los profesores son dedicados y explican de una forma divertida”.</p><div class="stars"><p class="star-on"></p></div><div class="quote-alumnos"></div></div></div></div></div><div class="row"><div class="col-sm-12 col-xs-12 col-md-12 text-center padding-cta"><a class="link-alumnos" href="https://www.openenglish.com/conectarse/testimonios-de-exito/"> <strong>Ver todos los testimonios</strong> </a></div></div></div></section><section class="section b2b-alumnos show-device"><div class="container"><div class="row"><div class="col-sm-12 col-xs-12 col-md-12 text-center"><h2 class="section-heading"><strong>Conoce algunas de las miles <span id="text-underline-orange">historias de éxito</span> y ¡conviértete en una de ellas!</strong></h2></div><div id="tcb-testimonial-carousel" class="carousel slide testimonials-home" data-ride="carousel"><ol class="carousel-indicators"><li class="active" data-target="#tcb-testimonial-carousel" data-slide-to="0"></li><li data-target="#tcb-testimonial-carousel" data-slide-to="1" class=""></li><li data-target="#tcb-testimonial-carousel" data-slide-to="2" class=""></li></ol><div class="carousel-inner"><div class="item active"><div class="row"><div class="col-xs-12"><figure class="clearfix"><div class="col-md-4 col-sm-8 col-xs-12 col-sm-offset-2 col-md-offset-0 col-xs-offset-0 ofrecemos-alumnos"><div class="wrapper-ofrecemos-alumnos"><img class="title-box img-responsive center-block" src="./Open English Sitio Oficial. Clases en Vivo Online las 24 Horas._files/oe-latam-2019-student1.jpg" alt="opinion de open english Fabian Miranda" data-src="/wp-content/uploads/2019/05/oe-latam-2019-student1.jpg"><div class="content-box"><p class="alumnosName">Fabián Miranda</p><p class="data-alumnos">Araneda, Chile, Profesor</p><p class="text-alumnos">“Me ha gustado mucho la plataforma, es de uso sencillo y cuenta con herramientas que realmente sirven. Una muy buena experiencia.</p><div class="stars"><p class="star-on"></p></div><div class="quote-alumnos"></div></div></div></div></figure></div></div></div><div class="item"><div class="row"><div class="col-xs-12"><figure class="clearfix"><div class="col-md-4 col-sm-8 col-xs-12 col-sm-offset-2 col-md-offset-0 col-xs-offset-0 ofrecemos-alumnos"><div class="wrapper-ofrecemos-alumnos"><img class="title-box img-responsive center-block" src="./Open English Sitio Oficial. Clases en Vivo Online las 24 Horas._files/oe-latam-2019-student2.jpg" alt="opinion del curso de open english Maritha Rodas" data-src="/wp-content/uploads/2019/05/oe-latam-2019-student2.jpg"><div class="content-box"><p class="alumnosName">Maritha Rodas</p><p class="data-alumnos">Quispe, Peru, Marketera</p><p class="text-alumnos">“Es súper práctico y avanzas rápido. En mis momentos de relajo entro a practicar mi inglés y es muy interesante las clases en vivo”.</p><div class="stars"><p class="star-on"></p></div><div class="quote-alumnos"></div></div></div></div></figure></div></div></div><div class="item"><div class="row"><div class="col-xs-12"><figure class="clearfix"><div class="col-md-4 col-sm-8 col-xs-12 col-sm-offset-2 col-md-offset-0 col-xs-offset-0 ofrecemos-alumnos"><div class="wrapper-ofrecemos-alumnos"><img class="title-box img-responsive center-block" src="./Open English Sitio Oficial. Clases en Vivo Online las 24 Horas._files/oe-latam-2019-student3.jpg" alt="opiniones open english Jairo Alvarez" data-src="/wp-content/uploads/2019/05/oe-latam-2019-student3.jpg"><div class="content-box"><p class="alumnosName">Jhon Jairo Alvarez</p><p class="data-alumnos">Colombia, Tecnologo-estudiante univ</p><p class="text-alumnos">“Open English me ha ayudado a aprender vocabulario, es interactivo, los profesores son dedicados y explican de una forma divertida”.</p><div class="stars"><p class="star-on"></p></div><div class="quote-alumnos"></div></div></div></div></figure></div></div></div></div></div></div><div class="row"><div class="col-sm-12 col-xs-12 col-md-12 text-center padding-cta"><a class="link-alumnos" href="https://www.openenglish.com/conectarse/testimonios-de-exito/"> <strong>Ver todos los testimonios</strong> </a></div></div></div></section><section class="section cta"><div class="container background-cta"><div class="row"><div class="col-xs-12 col-sm-12 col-md-12"><div class="col-xs-12 col-sm-12 col-md-5"><h2 class="black section-heading"><strong>No esperes más</strong></h2><p class="black text-cta">¡Aprende inglés hoy!</p></div><div class="col-xs-12 col-sm-12 col-md-3 hidden-device"><img class="margin-arrow center-block" src="./Open English Sitio Oficial. Clases en Vivo Online las 24 Horas._files/arrow(1).png" data-src="/wp-content/uploads/2019/05/arrow.png"></div><div class="col-xs-12 col-sm-12 col-md-4"><div><a class="btn btn-primary btn-lg right-block" href="https://www.openenglish.com/#hero">Llenar el formulario</a></div></div></div></div></div></section><footer><div class="container"><div class="row"><div class="col-md-2 col-sm-4 links"><ul id="menu-corporativo" class="menu"><li><a href="https://www.openenglish.com/corporativo/">Corporativo</a></li>
+                                    <li><a href="https://www.openenglish.com/corporativo/quienes-somos/">¿Quiénes Somos?</a></li>
+                                    <li><a href="https://www.openenglish.com/corporativo/mision-y-valores/">Misión y Valores</a></li>
+                                    <li><a href="https://www.openenglish.com/corporativo/conoce-nuestro-equipo/">Conoce nuestro equipo</a></li>
+                                    <li><a href="https://www.openenglish.com/corporativo/socios/">Socios</a></li>
+                                    <li><a href="https://www.openenglish.com/corporativo/inversionistas/">Inversionistas</a></li>
+                                    <li><a target="_blank" href="https://www.nextu.com/">Next U</a></li>
+                                    </ul></div><div class="col-md-2 col-sm-4 links"><ul id="menu-prensa" class="menu"><li><a href="https://www.openenglish.com/prensa/">Prensa</a></li>
+                                    <li><a href="https://www.openenglish.com/prensa/cobertura/">Cobertura en medios</a></li>
+                                    <li><a href="https://www.openenglish.com/prensa/premios/">Premios</a></li>
+                                    <li><a href="https://www.openenglish.com/prensa/tv/">TV Anuncios</a></li>
+                                    </ul></div><div class="col-md-2 col-sm-4 links"><ul id="menu-carreras" class="menu"><li><a>Carreras</a></li>
+                                    <li><a href="https://www.openenglish.com/carreras-profesionales/teaching-opportunities/">Teaching Opportunities</a></li>
+                                    <li><a href="https://www.openenglish.com/carreras-profesionales/empleos/">Trabaja en nuestras oficinas</a></li>
+                                    </ul></div><div class="col-md-2 col-sm-4 links"><ul id="menu-conectarse" class="menu"><li><a href="https://www.openenglish.com/conectarse/">Conectarse</a></li>
+                                    <li><a target="_blank" href="http://blog.openenglish.com/">Blog</a></li>
+                                    <li><a href="https://www.openenglish.com/conectarse/testimonios-de-exito/">Testimonios de exito</a></li>
+                                    <li><a target="_blank" href="http://www.facebook.com/openenglish"><i class="icon-2x fa fa-facebook "></i><span>Facebook</span></a></li>
+                                    <li><a target="_blank" href="http://twitter.com/openenglish"><i class="icon-2x fa fa-twitter "></i><span>Twitter</span></a></li>
+                                    <li><a target="_blank" href="http://www.youtube.com/openenglishtv"><i class="icon-2x fa fa-youtube "></i><span>Youtube</span></a></li>
+                                    <li><a target="_blank" href="https://www.instagram.com/openenglish/"><i class="icon-2x fa fa-instagram "></i><span>Instagram</span></a></li>
+                                    </ul></div><div class="col-md-2 col-sm-4 links"><ul id="menu-soporte" class="menu"><li><a href="https://www.openenglish.com/soporte/">Soporte</a></li>
+                                    <li class="phone_holder">+1-855-244-4040</li>
+                                    <li class="phone_holder">+1-855-244-4040</li>
+                                    <li><a href="https://www.openenglish.com/soporte/faq/">Preguntas Frecuentes</a></li>
+                                    </ul></div> [dms]</div><div class="row"><div class="col-lg-12 menu-legal"><ul id="menu-legal" class="menu"><li><a href="https://www.openenglish.com/politicas-de-privacidad/">Políticas de privacidad</a></li><li><a href="https://www.openenglish.com/terminos-de-servicio/">Términos de servicio</a></li><li><a href="https://www.openenglish.com/mapa-del-sitio/">Mapa del Sitio</a></li></ul></div></div><div class="row"><div class="col-lg-12"><p>Copyright © 2020 Open Education LLC. Todos los derechos reservados. El nombre y el logo de Open English son marcas registradas.</p></div></div></div></footer> <script>//Add phone number in Support footer menu
+jQuery(document).ready(function($) {
+    $('#menu-soporte li:first').after('<li class="phone_holder"></li>');
+    $('#phone_list').on('click', '#phone_list li a', function (){
+    	$('#phone_list li a').addClass('fun-yellow');
+    	$(this).addClass('fun-yellow');
+    });
+});
+
+//youtube implement with <div class="youtube" data-id="83nlNxXjIzE"></div>
+document.addEventListener("DOMContentLoaded",
+        function() {
+            var div, n,
+                v = document.getElementsByClassName("youtube");
+            for (n = 0; n < v.length; n++) {
+                div = document.createElement("div");
+                div.setAttribute("data-id", v[n].dataset.id);
+                div.innerHTML = youtubeThumb(v[n].dataset.id);
+                div.onclick = youtubeIframe;
+                v[n].appendChild(div);
+            }
+        });
+    function youtubeThumb(id) {
+        var thumb = '<img src="https://i.ytimg.com/vi/ID/hqdefault.jpg">';
+        var	playbut = '<div class="play"></div>';
+        return thumb.replace("ID", id) + playbut;
+    }
+    function youtubeIframe() {
+        var iframe = document.createElement("iframe");
+        iframe.setAttribute("src", "https://www.youtube.com/embed/" + this.dataset.id + "?autoplay=1");
+        iframe.setAttribute("frameborder", "0");
+        iframe.setAttribute("allowfullscreen", "1");
+        this.parentNode.replaceChild(iframe, this);
+    }</script> <script>jQuery('a[href*=#hero]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
+        || location.hostname == this.hostname) {
+
+        var target = jQuery(this.hash);
+        target = target.length ? target : jQuery('[name=' + this.hash.slice(1) +']');
+           if (target.length) {
+             jQuery('html,body').animate({
+                 scrollTop: (target.offset().top) - 50
+            }, 1000);
+var jQueryfirstformdiv = jQuery('#firstname-input');
+  for(i=0;i<5;i++) {
+    jQueryfirstformdiv.fadeTo('fast', 0.5).fadeTo('fast', 1.0);
+  }
+            return false;
+        }
+    }
+});</script> <div class="alert text-center cookiealert show" role="alert"> <span>Open English usa cookies para asegurar que obtengas la mejor experiencia en nuestro sitio web. Al continuar navegando este sitio, estás aceptando el uso de cookies. Para más información consulta nuestra <a href="https://www.openenglish.com/politicas-de-privacidad/" target="_blank">Política de privacidad</a>. <a class="acceptcookies"> <svg aria-hidden="true" style="vertical-align: bottom; margin: 0 !important;" fill="#ffffff" width="18" height="18" viewBox="0 0 18 18"><path d="M15 4.41L13.59 3 9 7.59 4.41 3 3 4.41 7.59 9 3 13.59 4.41 15 9 10.41 13.59 15 15 13.59 10.41 9 15 4.41z"></path></svg> </a></span></div> <script>/*
+     * Bootstrap Cookie Alert by Wruczek
+     * https://github.com/Wruczek/Bootstrap-Cookie-Alert
+     * Released under MIT license
+     */
+    (function () {
+        "use strict";
+
+        var cookieAlert = document.querySelector(".cookiealert");
+        var acceptCookies = document.querySelector(".acceptcookies");
+
+        if (!cookieAlert) {
+            return;
+        }
+
+        cookieAlert.offsetHeight; // Force browser to trigger reflow (https://stackoverflow.com/a/39451131)
+
+        // Show the alert if we cant find the "acceptCookies" cookie
+        if (!getCookie("acceptCookies")) {
+            cookieAlert.classList.add("show");
+        }
+
+        // When clicking on the agree button, create a 1 year
+        // cookie to remember user's choice and close the banner
+        acceptCookies.addEventListener("click", function () {
+            setCookie("acceptCookies", true, 365);
+            cookieAlert.classList.remove("show");
+        });
+        cookieAlert.addEventListener("click", function () {
+            setCookie("acceptCookies", true, 365);
+            cookieAlert.classList.remove("show");
+        });
+        // Cookie functions from w3schools
+        function setCookie(cname, cvalue, exdays) {
+            var d = new Date();
+            d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+            var expires = "expires=" + d.toUTCString();
+            document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+        }
+
+        function getCookie(cname) {
+            var name = cname + "=";
+            var decodedCookie = decodeURIComponent(document.cookie);
+            var ca = decodedCookie.split(';');
+            for (var i = 0; i < ca.length; i++) {
+                var c = ca[i];
+                while (c.charAt(0) === ' ') {
+                    c = c.substring(1);
+                }
+                if (c.indexOf(name) === 0) {
+                    return c.substring(name.length, c.length);
+                }
+            }
+            return "";
+        }
+    })();</script>  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-X72G"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> <noscript><style>.lazyload{display:none;}</style>
+

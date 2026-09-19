@@ -1,0 +1,454 @@
+@charset "utf-8";
+/*
+ *	Hoja de estilos de los plugins
+ *  Autor				: Alan Valentín Castellón Cuentas
+ *  Empresa				: AntaKu -StudiOs-
+ * 	Última modificación	: 12/marzo/2014
+ */
+ 
+/********************************ANTAKU CHAT************************************************/
+@import url("chatAntaKu.css");
+
+/*********************************LIGHTBOX*************************************************/
+/* line 7, ../sass/lightbox.sass */
+body:after {
+  content: url(../img/close.png) url(../img/loading.gif) url(../img/prev.png) url(../img/next.png);
+  display: none;
+}
+
+/* line 11, ../sass/lightbox.sass */
+.lightboxOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999999;
+  background-color: black;
+  /*filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);*/
+  opacity: 0.9;
+  display: none;
+}
+
+/* line 20, ../sass/lightbox.sass */
+.lightbox {
+  position: absolute;
+  left: 0;
+  height: 70%;
+  width: 100% !important;
+  z-index: 1000000;
+  text-align: center;
+  line-height: 0;
+  font-weight: normal;
+}
+/* line 28, ../sass/lightbox.sass */
+.lightbox .lb-image {
+  display: block;
+  height: auto;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+}
+/* line 32, ../sass/lightbox.sass */
+.lightbox a img {
+  border: none;
+ 
+}
+
+.lightbox img {
+  max-width: 100% !important;
+  height: auto !important;
+  width: 99% !important;
+}
+
+/* line 35, ../sass/lightbox.sass */
+.lb-outerContainer {
+  position: relative;
+  background-color: rgba(255,255,255,0.8);
+  *zoom: 1;
+/*  width: 250px;
+  height: 250px;*/
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s; 
+  margin: 0 auto;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+}
+/* line 38, ../../../../.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+.lb-outerContainer:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 44, ../sass/lightbox.sass */
+.lb-container {
+  margin: 0 auto !important;
+  text-align: center !important;
+  padding: 4px;
+  width: 100% !important;
+  height: auto !important;
+}
+
+/* line 47, ../sass/lightbox.sass */
+.lb-loader {
+  position: absolute;
+  top: 43%;
+  left: 0%;
+  height: 25%;
+  width: 100%;
+  text-align: center;
+  line-height: 0;
+}
+
+/* line 56, ../sass/lightbox.sass */
+.lb-cancel {
+  display: block;
+  width: 32px;
+  height: 32px;
+  margin: 0 auto;
+  background: url(../img/loading.gif) no-repeat;
+}
+
+/* line 63, ../sass/lightbox.sass */
+.lb-nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+}
+
+/* line 71, ../sass/lightbox.sass */
+.lb-container > .nav {
+  left: 0;
+}
+
+/* line 74, ../sass/lightbox.sass */
+.lb-nav a {
+  outline: none;
+}
+
+/* line 77, ../sass/lightbox.sass */
+.lb-prev, .lb-next {
+  width: 49%;
+  height: 100%;
+  cursor: pointer;
+  /* Trick IE into showing hover */
+  display: block;
+}
+
+/* line 84, ../sass/lightbox.sass */
+.lb-prev {
+  left: 0;
+  float: left;
+}
+/* line 87, ../sass/lightbox.sass */
+.lb-prev:hover {
+  background: url(../img/prev.png) left 48% no-repeat;
+}
+
+/* line 90, ../sass/lightbox.sass */
+.lb-next {
+  right: 0;
+  float: right;
+}
+/* line 93, ../sass/lightbox.sass */
+.lb-next:hover {
+  background: url(../img/next.png) right 48% no-repeat;
+}
+
+/* line 96, ../sass/lightbox.sass */
+.lb-dataContainer {
+  margin: 0 auto;
+  padding-top: 5px;
+  *zoom: 1;
+/*  width: 100%;*/
+  -moz-border-radius-bottomleft: 4px;
+  -webkit-border-bottom-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  -moz-border-radius-bottomright: 4px;
+  -webkit-border-bottom-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+/* line 38, ../../../../.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+.lb-dataContainer:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 103, ../sass/lightbox.sass */
+.lb-data {
+  padding: 0 4px;
+  color: #bbbbbb;
+}
+/* line 106, ../sass/lightbox.sass */
+.lb-data .lb-details {
+/*  width: 85%;*/
+  width: 100%;
+  float: left;
+  text-align: left;
+  line-height: 1.1em;
+}
+/* line 111, ../sass/lightbox.sass */
+.lb-data .lb-caption {
+  font-size: 2em;
+  /*font-weight: bold;*/
+  line-height: 1em !important;
+  font-family:"Trebuchet MS", Arial, Helvetica, sans-serif !important;
+}
+/* line 115, ../sass/lightbox.sass */
+.lb-data .lb-number {
+  display: block;
+  clear: left;
+  padding-bottom: 1em;
+  font-size: 12px;
+  color: #999999;
+}
+/* line 121, ../sass/lightbox.sass */
+.lb-data .lb-close {
+  display: block;
+  float: right;
+  width: 30px;
+  height: 30px;
+  background: url(../img/close.png) top right no-repeat;
+  text-align: right;
+  outline: none;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+  opacity: 0.7;
+}
+/* line 130, ../sass/lightbox.sass */
+.lb-data .lb-close:hover {
+  cursor: pointer;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
+
+@media only screen and (max-width: 767px) {
+	.lb-outerContainer {
+		width: 100% !important;
+  		height: auto !important;
+		min-height: 220px;
+	}
+	.lb-dataContainer {
+		width: 100% !important;
+  		height: auto !important;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+	.lb-outerContainer {
+		width: 75% !important;
+  		height: auto !important;
+		min-height: 320px;
+	}
+	.lb-dataContainer {
+		width: 75% !important;
+  		height: auto !important;
+	}
+}
+@media only screen and (min-width: 1025px) and (max-width: 1599px) {
+	.lb-outerContainer {
+		width: 50% !important;
+  		height: auto !important;
+		min-height: 350px;
+	}
+	.lb-dataContainer {
+		width: 50% !important;
+  		height: auto !important;
+	}
+}
+@media only screen and (min-width: 1600px) {
+	.lb-outerContainer {
+		width: 40% !important;
+  		height: auto !important;
+		min-height: 400px;
+	}
+	.lb-dataContainer {
+		width: 40% !important;
+  		height: auto !important;
+	}
+}
+
+
+/****************************** SLIDEJS*************************************/
+
+#slides {
+  width: 101% !important;
+  display: none;
+/*  background: #eac436;*/
+  position: relative;
+  margin: 0 auto;
+  box-shadow: 0 10px 5px rgba(0,0,0,0.5); 
+  overflow: visible !important;
+  padding-bottom: 2.2em;
+}
+
+#slides a img {
+	min-width: 100% !important;
+	width: 100% !important;
+}
+
+#slides .slidesjs-container {
+	
+	transition: transform 0.8s, box-shadow 0.8s;
+	-moz-transition: -moz-transform 0.8s, box-shadow: 0.8s;
+	-ms-transition: -ms-transform 0.8s, box-shadow 0.8s;
+	-o-transition: -o-transform 0.8s, box-shadow 0.8s;
+	-webkit-transition: -webkit-transform 0.8s, -webkit-box-shadow 0.8s;
+}
+
+#slides .slidesjs-container:hover {
+	transform: scale(1.1,1.1);
+	-moz-transform: scale(1.1,1.1);
+	-ms-transform: scale(1.1,1.1);
+	-o-transform: scale(1.1,1.1);
+	-webkit-transform: scale(1.1,1.1);
+	box-shadow: 0 15px 10px rgba(0,0,0,0.5);
+	z-index: 300;
+}
+
+#slides .slidesjs-navigation {
+  margin:10px 5px 7px;
+}
+
+#slides .slidesjs-navigation {
+	margin-left: 15px;
+}
+
+#slides .slidesjs-navigation:last-child {
+	margin-right: 0;
+}
+
+a.slidesjs-next,
+a.slidesjs-previous,
+a.slidesjs-play,
+a.slidesjs-stop {
+  background-image: url('../img/btns-next-prev.png');
+  background-repeat: no-repeat;
+  display:block;
+  width:12px;
+  height:18px;
+  overflow: hidden;
+  text-indent: -9999px;
+  float: left;
+  margin-right:5px;
+}
+
+a.slidesjs-next {
+  margin-right:10px;
+  background-position: -12px 0;
+}
+
+a:hover.slidesjs-next {
+  background-position: -12px -18px;
+}
+
+a.slidesjs-previous {
+  background-position: 0 0;
+}
+
+a:hover.slidesjs-previous {
+  background-position: 0 -18px;
+}
+
+a.slidesjs-play {
+  width:15px;
+  background-position: -25px 0;
+}
+
+a:hover.slidesjs-play {
+  background-position: -25px -18px;
+}
+
+a.slidesjs-stop {
+  width:18px;
+  background-position: -41px 0;
+}
+
+a:hover.slidesjs-stop {
+  background-position: -41px -18px;
+}
+
+.slidesjs-pagination {
+  position: absolute;
+  right: 15px;
+  bottom: 10px;
+  /*margin: 12px 15px 5px;
+  float: right;*/
+  list-style: none;
+  display: inline-block;
+}
+
+.slidesjs-pagination li {
+  float: left;
+  margin: 0 1px;
+}
+
+.slidesjs-pagination li a {
+  display: block;
+  width: 13px;
+  height: 0;
+  padding-top: 13px;
+  background-image: url('../img/pagination.png');
+  background-position: 0 0;
+  float: left;
+  overflow: hidden;
+}
+
+.slidesjs-pagination li a.active,
+.slidesjs-pagination li a:hover.active {
+  background-position: 0 -13px;
+}
+
+.slidesjs-pagination li a:hover {
+  background-position: 0 -26px;
+}
+
+#slides a:link,
+#slides a:visited {
+  color: #333;
+}
+
+#slides a:hover,
+#slides a:active {
+  color: #9e2020;
+}
+
+.navbar {
+  overflow: hidden;
+}
+
+.slide-container {
+  border: none !important;
+  margin: 0 auto;
+  width: 70% !important;
+}
+
+@media only screen and (max-width: 767px) {
+	.slide-container {
+	  width: 100% !important;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+	.slide-container {
+	  width: 90% !important;
+	}
+}
+@media only screen and (min-width: 1025px) and (max-width: 1599px) {
+	.slide-container {
+	  width: 80% !important;
+	}
+}
+@media only screen and (min-width: 1600px) {
+	.slide-container {
+	  width: 70% !important;
+	}
+}
