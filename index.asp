@@ -1,4 +1,18 @@
+<%@LANGUAGE="VBSCRIPT"%>
+<!--#include file="../../Connections/SG2.asp" -->
+<%
+Dim Recordset1
+Dim Recordset1_cmd
+Dim Recordset1_numRows
 
+Set Recordset1_cmd = Server.CreateObject ("ADODB.Command")
+Recordset1_cmd.ActiveConnection = MM_SG2_STRING
+Recordset1_cmd.CommandText = "SELECT * FROM POPUP" 
+Recordset1_cmd.Prepared = true
+
+Set Recordset1 = Recordset1_cmd.Execute
+Recordset1_numRows = 0
+%>
 <!--cd C:\xampp\htdocs\www.firstclassinstitute.edu.boresponsive\php
 php -q wsserver.php-->
 <!doctype html>
@@ -101,7 +115,7 @@ php -q wsserver.php-->
 	
 <div id="wrapper">
     	<header id="site-header" class="darkred-dots">
-        	<a href="index.html" title="Inicio"><h1>ESA</h1></a>
+        	<a href="index.asp" title="Inicio"><h1>ESA</h1></a>
 <time><script>
 var meses = new Array ("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre");
 var f=new Date();
@@ -147,8 +161,8 @@ document.write(f.getDate() + " de " + meses[f.getMonth()] + " de " + f.getFullYe
     <li >
         <a>Sistema</a>
          <ul>
-            <li class="icon-quienes"><a href="http://177.222.118.32/sg2/PAGINAS/admin/login.asp"><span>ADM</span></a></li>
-            <li class="icon-quienes"><a href="http://177.222.118.32/sg2/PAGINAS/admin/login1.asp"><span>F.N.M.</span></a></li>
+            <li class="icon-quienes"><a href="../../PAGINAS/admin/login.asp"><span>ADM</span></a></li>
+            <li class="icon-quienes"><a href="../../PAGINAS/admin/login1.asp"><span>F.N.M.</span></a></li>
             
         </ul>
     </li>
@@ -175,7 +189,7 @@ document.write(f.getDate() + " de " + meses[f.getMonth()] + " de " + f.getFullYe
         <ul>
 
 
-<li class="icon-lapaz"><a href="http://177.222.118.32/sg2/paginas/admin/login_alumno.asp"><span>ACCESO</span></a></li>
+<li class="icon-lapaz"><a href="../../paginas/admin/login_alumno.asp"><span>ACCESO</span></a></li>
 
     
 
@@ -416,7 +430,31 @@ document.write(f.getDate() + " de " + meses[f.getMonth()] + " de " + f.getFullYe
 		r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
 		ga('create','UA-XXXXX-X');ga('send','pageview');
 	</script>-->
-  
+    <%IF (Recordset1.Fields.Item("activo").Value)="SI" THEN%>
+<div class="modal fade" id="mostrarmodal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+           <div class="modal-header">
+             <h3><%= Server.HTMLEncode((Recordset1.Fields.Item("cabecera").Value)) %></h3>
+           </div>
+<div class="modal-body">
+    <h4 class="ui-state-hover"><%= Server.HTMLEncode((Recordset1.Fields.Item("Texto").Value)) %></h4>
+              <p>&nbsp;</p>
+              <p><a href="<%=(Recordset1.Fields.Item("Link").Value)%>"><%= Server.HTMLEncode((Recordset1.Fields.Item("Text2").Value)) %></a></p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+<p><a href="<%=(Recordset1.Fields.Item("link2").Value)%>"><%= Server.HTMLEncode((Recordset1.Fields.Item("Text3").Value)) %></a></p>
+            
+          </div>
+           <div class="modal-footer">
+          <a href="#" data-dismiss="modal" class="btn btn-danger">Cerrar</a>
+           </div>
+      </div>
+   </div>
+</div>
+</body>
+  <%END IF%>
 
 <!-- Mirrored from firstclassbolivia.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 12 May 2020 16:37:50 GMT -->
 
@@ -431,7 +469,10 @@ document.write(f.getDate() + " de " + meses[f.getMonth()] + " de " + f.getFullYe
         <img src="whatsaap.jpg" alt="Chatea con nosotros por WhatsApp">
     </a>
 
-
+</html><%
+Recordset1.Close()
+Set Recordset1 = Nothing
+%>
 <!--<script>
     if (navigator.language.substring(0, 2) == "es") {
 		window.location = window.location+"?lang=es"
