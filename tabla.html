@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Exportación de Tablas Completo</title>
+    
+    <style>
+        /* --- ESTILOS DE LA TABLA --- */
+        table { 
+            border-collapse: collapse; 
+            width: 60%; 
+            margin-bottom: 25px; 
+            font-family: Arial, sans-serif; 
+        }
+        th, td { 
+            border: 1px solid #ccc; 
+            padding: 12px; 
+            text-align: left; 
+        }
+        th { 
+            background-color: #f4f4f4; 
+            font-weight: bold;
+        }
+        tr:nth-child(even) {
+            background-color: #fafafa; /* Color alterno para filas */
+        }
+        
+        /* --- ESTILOS DE LOS BOTONES --- */
+        .botones-exportar { 
+            display: flex; 
+            gap: 12px; 
+            font-family: Arial, sans-serif;
+        }
+        button { 
+            padding: 10px 18px; 
+            color: #fff; 
+            border: none; 
+            cursor: pointer; 
+            font-weight: bold; 
+            border-radius: 5px; 
+            transition: background 0.2s ease;
+        }
+        
+        /* Colores individuales por formato */
+        .btn-csv { background: #007BFF; }
+        .btn-csv:hover { background: #0056b3; }
+        
+        .btn-excel { background: #1D7444; }
+        .btn-excel:hover { background: #12492B; }
+        
+        .btn-txt { background: #6C757D; }
+        .btn-txt:hover { background: #545B62; }
+        
+        .btn-pdf { background: #DC3545; }
+        .btn-pdf:hover { background: #BD2130; }
+    </style>
+    
+    <!-- LIBRERÍA HTML2PDF (Versión v0.9.3 ultra estable para uso local y servidores) -->
+    <script src="https://cloudflare.com"></script>
+</head>
+<body>
+
+    <!-- Contenedor que será transformado a PDF -->
+    <div id="contenedorTabla">
+        <table id="miTabla">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Edad</th>
+                    <th>Ciudad</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Ana Gómez</td>
+                    <td>28</td>
+                    <td>Madrid</td>
+                </tr>
+                <tr>
+                    <td>Luis Martínez</td>
+                    <td>34</td>
+                    <td>Bogotá</td>
+                </tr>
+                <tr>
+                    <td>María Rodríguez</td>
+                    <td>22</td>
+                    <td>Buenos Aires</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Panel de botones de descarga -->
+    <div class="botones-exportar">
+        <button class="btn-csv" onclick="exportarCSV('datos.csv')">Descargar CSV</button>
+        <button class="btn-excel" onclick="exportarExcel('datos.xls')">Descargar Excel</button>
+        <button class="btn-txt" onclick="exportarTXT('datos.txt')">Descargar TXT</button>
+        <button class="btn-pdf" onclick="exportarPDF('datos.pdf')">Descargar PDF</button>
+    </div>
+
+    <script>
+        // --- FUNCIÓN AUXILIAR: Extrae los datos planos de la tabla ---
+        function obtenerDatosTabla() {
+            var datos = [];
+            var rows = document.querySelectorAll("#miTabla tr");
+            for (var i = 0; i < rows.length; i++) {
+                var fila = [], cols = rows[i].querySelectorAll("td, th");
+                for (var j = 0; j < cols.length; j++) {
+                    fila.push(cols[j].innerText.trim());
+                }
+                datos.push(fila);
+            }
+            return datos;
+        }
+
+        // --- FUNCIÓN AUXILIAR: Dispara la descarga del archivo en el navegador ---
+        function dispararDescarga(contenido, filename, mimeType) {
+            var blob = new Blob([contenido], { type: mimeType });
+            var downloadLink = document.createElement("a");
+            downloadLink.download = filename;
+            downloadLink.href = window.URL.createObjectURL(blob);
+            downloadLink.style.display = "none";
+            document.body.appendChild(downloadLink);
+            downloadLink.click();
+            document.body.removeChild(downloadLink);
+        }
+
+        // 1. EXPORTAR A CSV
+        function exportarCSV(filename) {
+            var datos = obtenerDatosTabla();
+            var csv = datos.map(fila => fila.map(texto => '"' + texto + '"').join(",")).join("\n");
+            dispararDescarga(csv, filename, "text/csv;charset=utf-8;");
+        }
+
+        // 2. EXPORTAR A EXCEL
+        function exportarExcel(filename) {
+            var tablaHtml = document.getElementById("miTabla").outerHTML;
+            var plantillaExcel = `<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns="http://w3.org"><head><meta charset="UTF-8"><!--[if gte mso 9]><xml><x:ExcelWorkbook><x:ExcelWorksheets><x:ExcelWorksheet><x:Name>Hoja 1</x:Name><x:WorksheetOptions><x:DisplayGridlines/></x:WorksheetOptions></x:ExcelWorksheet></x:ExcelWorksheets></x:ExcelWorkbook></xml><![endif]--></head><body>${tablaHtml}</body></html>`;
+            dispararDescarga(plantillaExcel, filename, "application/vnd.ms-excel;charset=utf-8;");
+        }
+
+        // 3. EXPORTAR A TXT (Formato tabulado)
+        function exportarTXT(filename) {
+            var datos = obtenerDatosTabla();
+            var txt = datos.map(fila => fila.join("\t")).join("\n");
+            dispararDescarga(txt, filename, "text/plain;charset=utf-8;");
+        }
+
+        // 4. EXPORTAR A PDF (Código corregido con soporte local nativo)
+        function exportarPDF(filename) {
+            var elemento = document.getElementById('contenedorTabla');
+            
+            var opciones = {
+                margin:       15,
+                filename:     filename,
+                image:        { type: 'jpeg', quality: 0.98 },
+                html2canvas:  { 
+                    scale: 2,
+                    useCORS: true,
+                    logging: false
+                },
+                jsPDF:        { unit: 'mm', format: 'a4', orientation: 'portrait' }
+            };
+
+            // Ejecución directa de la promesa (Evita bloqueos en navegadores estrictos)
+            html2pdf().from(elemento).set(opciones).save();
+        }
+    </script>
+</body>
+</html>
